@@ -1,0 +1,602 @@
+ID_old, ,Paper_chosen_by,Publication_year,Journal,First_author,informal_citation,doi,In_Dropbox,Data_collector,OK_for_analysis,paper_focus,tense,confidence_in_tense,climate_date_range,climate_date_min,climate_date_max,climate_data_source,citation,geographic_extent_of_study,notes,Data_collector_name,Paper_number
+1,1,Meagan ,1990,PNAS,Andreadis,http://www.pnas.org/content/87/7/2461.short,NA,Yes,Rachael 42,,,,,,,,,,,,Rachael,42
+2,2,Meagan ,1990,PNAS,Reeve,http://www.pnas.org/content/87/7/2496.full.pdf+html,NA,Yes,Rachael 33,,,,,,,,,,,,Rachael,33
+3,3,Meagan ,1990,PNAS,Sappington,http://www.pnas.org/content/87/16/6132.full.pdf+html,10.1073/pnas.87.16.6132,Yes,Matt 22,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,22
+4,4,Meagan ,1990,PNAS,Jacobs,http://www.pnas.org/content/87/16/6349.full.pdf+html,10.1073/pnas.87.16.6349,Yes,Erin 29,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Erin,29
+5,5,Meagan ,1990,PNAS,Steadman,http://www.pnas.org/content/87/24/9605.full.pdf+html,NA,Yes,Cory 03,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Cory,3
+6,6,Meagan ,1991,PNAS,Wenzel,http://www.pnas.org/content/88/1/36.full.pdf+html,NA,Yes,Naia 52,,,,,,,,,,,,Naia,52
+7,7,Meagan ,1991,PNAS,Mahall,http://www.pnas.org/content/88/3/874.full.pdf+html,NA,Yes,AndrewW 25,,,,,,,,,,,,AndrewW,25
+8,8,Meagan ,1991,PNAS,Pérez de la Vega,http://www.pnas.org/content/88/4/1202.full.pdf+html,10.1073/pnas.88.4.1202,Yes,AndrewW 34,,,,,,,,,,,,AndrewW,34
+9,9,Meagan ,1991,PNAS,Garcia,http://www.pnas.org/content/88/4/1207.full.pdf+html,10.1073/pnas.88.4.1207,Yes,Cory 44,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Cory,44
+10,10,Meagan ,1991,PNAS,Arnold,http://www.pnas.org/content/88/4/1398.full.pdf+html,10.1073/pnas.88.4.1398,Yes,Carrie 36,no,,,,,,,,,,,Carrie,36
+11,11,Meagan ,1991,PNAS,Adams,http://www.pnas.org/content/88/5/2031.full.pdf+html,NA,Yes,AndrewT 15,no,not temporal,implicit past,FALSE,NA,NA,NA,NA,FALSE,site,no climate data. Reference to start of wet season refers to months and year,AndrewT,15
+12,12,Meagan ,1991,PNAS,Graves,http://www.pnas.org/content/88/6/2322.full.pdf+html,10.1073/pnas.88.6.2322,Yes,Matt 55,,,,,,,,,,,,Matt,55
+13,13,Meagan ,1991,PNAS,Whittemore,http://www.pnas.org/content/88/6/2540.full.pdf+html,10.1073/pnas.88.6.2540,Yes,Matt 30,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,30
+14,14,Meagan ,1991,PNAS,Ferré,http://www.pnas.org/content/88/12/5119.full.pdf+html,10.1073/pnas.88.12.5119,Yes,AndrewW 38,,,,,,,,,,,,AndrewW,38
+15,15,Meagan ,1992,PNAS,Ulmasov,http://www.pnas.org/content/89/5/1666.full.pdf+html,10.1073/pnas.89.5.1666,Yes,Meagan 14,yes,not temporal,implicit present,TRUE,FALSE,NA,NA,not_specified,TRUE,global,,Meagan,14
+16,16,Meagan ,1992,PNAS,Hedges,http://www.pnas.org/content/89/5/1909.full.pdf+html,10.1073/pnas.89.5.1909,Yes,Carrie 25,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,marine and no data anyways,Carrie,25
+17,17,Meagan ,1992,PNAS,Dawley,http://www.pnas.org/content/89/6/2485.full.pdf+html,NA,Yes,AndrewT 29,no,,,,,,,,,,aquatic,AndrewT,29
+18,18,Meagan ,1992,PNAS,Daniels,http://www.pnas.org/content/89/12/5311.full.pdf+html?sid=59da80b8-b2d0-40cb-8001-3fe321b2efd0,10.1073/pnas.89.12.5311,Yes,Prahlad 34,,,,,,,,,,,,Prahlad,34
+19,19,Meagan ,1992,PNAS,Comstock,http://www.pnas.org/content/89/16/7747.full.pdf+html?sid=078bc152-f6e0-45ee-a3df-aab21c2a4131,10.1073/pnas.89.16.7747,Yes,Meagan 06,yes,not temporal,implicit present,TRUE,FALSE,NA,NA,not_specified,FALSE,regional,"gave mean annual precip and temp for each of ~10 sites, but no mention of where data came from ",Meagan,6
+20,20,Meagan ,1992,PNAS,Souza,http://www.pnas.org/content/89/17/8389.full.pdf+html?sid=36fc3d9d-802e-4720-85c7-712dbcb8f761,NA,Yes,AndrewW 55,,,,,,,,,,,,AndrewW,55
+21,21,Meagan ,2010,Nature,Shizuka,http://www.nature.com/nature/journal/v463/n7278/pdf/nature08655.pdf,10.1038/nature08655,Yes,Prahlad 27,,,,,,,,,,,,Prahlad,27
+22,22,Meagan ,2010,Nature,Wolf,http://www.nature.com/nature/journal/v464/n7290/pdf/nature08931.pdf,10.1038/nature08931,Yes,Matt 32,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,some measured weather data but no climate data,Matt,32
+23,23,Meagan ,2010,Nature,Gething,http://www.nature.com/nature/journal/v465/n7296/pdf/nature09098.pdf,10.1038/nature09098,Yes,Matt 42,,,,,,,,,,,,Matt,42
+24,24,Meagan ,2010,Nature,Schindler,http://www.nature.com/nature/journal/v465/n7298/pdf/nature09060.pdf,10.1038/nature09060,Yes,Naia 40,,,,,,,,,,,,Naia,40
+25,25,Meagan ,2010,Nature,Calsebeek,http://www.nature.com/nature/journal/v465/n7298/pdf/nature09020.pdf,10.1038/nature09020,Yes,Matt 12,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,12
+26,26,Meagan ,2010,Nature,Blois,http://www.nature.com/nature/journal/v465/n7299/pdf/nature09077.pdf,10.1038/nature09077,Yes,Cory 37,yes,climate change effects,past,TRUE,TRUE,-18000,2010,NA,TRUE,regional,by climate data from ice cores; not sure which climate data source applies,Cory,37
+27,27,Meagan ,2010,Nature,Humphries,http://www.nature.com/nature/journal/v465/n7301/pdf/nature09116.pdf,10.1038/nature09116,Yes,AndrewT 57,,,,,,,,,,,,AndrewT,57
+28,28,Meagan ,2010,Nature,Langley,http://www.nature.com/nature/journal/v466/n7302/pdf/nature09176.pdf,10.1038/nature09176,Yes,Meagan 34,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no temp or precip data; intersted in CO2 & N direct effects on plant community,Meagan,34
+29,29,Meagan ,2010,Nature,Crowder,http://www.nature.com/nature/journal/v466/n7302/pdf/nature09183.pdf,10.1038/nature09183,Yes,AndrewW 49,,,,,,,,,,,,AndrewW,49
+30,30,Meagan ,2010,Nature,Ozgul,http://www.nature.com/nature/journal/v466/n7305/pdf/nature09210.pdf,10.1038/nature09210,Yes,AndrewW 50,,,,,,,,,,,,AndrewW,50
+31,31,Meagan ,2010,Nature,Boyce,http://www.nature.com/nature/journal/v466/n7306/pdf/nature09268.pdf,10.1038/nature09268,Yes,Rachael 23,no,,,,,,,,,,Marine: phytoplankton study,Rachael,23
+32,32,Meagan ,2010,Nature,Mangan,http://www.nature.com/nature/journal/v466/n7307/pdf/nature09273.pdf,10.1038/nature09273,Yes,Carrie 50,,,,,,,,,,,,Carrie,50
+33,33,Meagan ,2010,Nature,Tittensor,http://www.nature.com/nature/journal/v466/n7310/pdf/nature09329.pdf,10.1038/nature09329,Yes,Prahlad 29,,,,,,,,,,,,Prahlad,29
+34,34,Meagan ,2010,Nature,Doak,http://www.nature.com/nature/journal/v467/n7318/pdf/nature09439.pdf,10.1038/nature09439,Yes,Carrie 21,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Carrie,21
+35,35,Meagan ,2010,Nature,Jung,http://www.nature.com/nature/journal/v467/n7318/pdf/nature09396.pdf,10.1038/nature09396,Yes,Cory 40,,,,,,,,,,,,Cory,40
+36,36,Meagan ,2010,Nature,Pen,http://www.nature.com/nature/journal/v468/n7322/pdf/nature09512.pdf,10.1038/nature09512,Yes,Rachael 21,yes,weather effects,implicit past,TRUE,TRUE,2000,2007,regional,TRUE,regional,used weather data to parameterize models,Rachael,21
+37,37,Meagan ,2010,Nature,Schreber,http://www.nature.com/nature/journal/v468/n7323/pdf/nature09492.pdf,10.1038/nature09492,Yes,Prahlad 07,,,,,,,,,,,,Prahlad,7
+38,38,Meagan ,2010,Nature,Amstrup,http://www.nature.com/nature/journal/v468/n7326/pdf/nature09653.pdf,10.1038/nature09653,yes,Matt 20,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,"modeling study, not field site",Matt,20
+39,39,Meagan ,2011,Nature,Saraux,http://www.nature.com/nature/journal/v469/n7329/pdf/nature09630.pdf,10.1038/nature09630,yes,Erin 42,,,,,,,,,,,,Erin,42
+40,40,Meagan ,2011,Nature,Schooler,http://www.nature.com/nature/journal/v470/n7332/pdf/nature09735.pdf,10.1038/nature09735,yes,Naia 31,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate mentioned,Naia,31
+41,41,Meagan ,2000,Journal_of_Ecology,Donovan,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00411.x/full,10.1046/j.1365-2745.2000.00411.x,Yes,AndrewT 34,,,,,,,,,,,,AndrewT,34
+42,42,Meagan ,2000,Journal_of_Ecology,Kéry,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00422.x/full,10.1046/j.1365-2745.2000.00422.x,Yes,Erin 15,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Erin,15
+43,43,Meagan ,2000,Journal_of_Ecology,Cadenasso,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00423.x/full,10.1046/j.1365-2745.2000.00423.x,Yes,Meagan 46,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Meagan,46
+44,44,Meagan ,2000,Journal_of_Ecology,Gough,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00426.x/full,10.1046/j.1365-2745.2000.00426.x,Yes,Naia 46,,,,,,,,,,,,Naia,46
+45,45,Meagan ,2000,Journal_of_Ecology,Bell,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00427.x/full,10.1046/j.1365-2745.2000.00427.x,Yes,Meagan 40,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Meagan,40
+46,46,Meagan ,2000,Journal_of_Ecology,Catovsky,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00428.x/full,10.1046/j.1365-2745.2000.00428.x,Yes,Rachael 28,no,not temporal,,,,,,,,,no climate data,Rachael,28
+47,47,Meagan ,2000,Journal_of_Ecology,Austin,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00437.x/full,10.1046/j.1365-2745.2000.00437.x,Yes,Carrie 40,yes,not temporal,unclear,FALSE,FALSE,NA,NA,atlas,TRUE,regional,"Refers to MAT and MAP but never gives a tense (""MAT were calculated from...""",Carrie,40
+48,48,Meagan ,2000,Journal_of_Ecology,Smith,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00436.x/full,10.1046/j.1365-2745.2000.00436.x,Yes,Cory 45,,,,,,,,,,,,Cory,45
+49,49,Meagan ,2000,Journal_of_Ecology,Sherman,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00439.x/full,10.1046/j.1365-2745.2000.00439.x,Yes,Naia 55,,,,,,,,,,,,Naia,55
+50,50,Meagan ,2000,Journal_of_Ecology,Gillman,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00440.x/full,10.1046/j.1365-2745.2000.00440.x,Yes,AndrewT 26,no,,,,,,,,,,factorial field experiment. ,AndrewT,26
+51,51,Meagan ,2000,Journal_of_Ecology,Gerdol,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00445.x/full,10.1046/j.1365-2745.2000.00445.x,Yes,Cory 23,,,,,,,,,,,,Cory,23
+52,52,Meagan ,2000,Journal_of_Ecology,Woods,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00448.x/full,10.1046/j.1365-2745.2000.00448.x,Yes,Erin 31,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Erin,31
+53,53,Meagan ,2000,Journal_of_Ecology,Cabin,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00443.x/full,10.1046/j.1365-2745.2000.00443.x,Yes,AndrewW 01,yes,weather effects,past,TRUE,TRUE,1993,1993,not_specified,FALSE,site,"desert seed bank pop dynamics via demographic pop comparisons; only climate data is precip from local met station and mean monthly min temps at field site - only used in discussion of potential factors affecting low germination between February and March 1993 in one sampling period, but past tense used; how and when data was collected was not mentioned",AndrewW,1
+54,54,Meagan ,2000,Journal_of_Ecology,Van Der Wal,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00450.x/full,10.1046/j.1365-2745.2000.00450.x,Yes,Matt 50,,,,,,,,,,,,Matt,50
+55,55,Meagan ,2000,Journal_of_Ecology,Prentice,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00454.x/full,10.1046/j.1365-2745.2000.00454.x,Yes,Matt 38,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,38
+56,56,Meagan ,2000,Journal_of_Ecology,Rousset,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00457.x/full,10.1046/j.1365-2745.2000.00457.x,Yes,Meagan 28,yes,not temporal,present,TRUE,FALSE,NA,NA,not_specified,FALSE,site,,Meagan,28
+57,57,Meagan ,2000,Journal_of_Ecology,Garcia,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00459.x/full,10.1046/j.1365-2745.2000.00459.x,Yes,AndrewT 02,no,not temporal,unclear,FALSE,NA,NA,NA,NA,FALSE,continental,"years only for study date range, no climate data collected. Latitude used to make climatic-impact inferences",AndrewT,2
+58,58,Meagan ,2000,Journal_of_Ecology,Webb,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00462.x/full,10.1046/j.1365-2745.2000.00462.x,Yes,Carrie 29,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Carrie,29
+59,59,Meagan ,2000,Journal_of_Ecology,Vila,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00460.x/full,10.1046/j.1365-2745.2000.00460.x,Yes,Prahlad 44,,,,,,,,,,,,Prahlad,44
+60,60,Meagan ,2000,Journal_of_Ecology,Huckle,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2745.2000.00464.x/full,10.1046/j.1365-2745.2000.00464.x,Yes,Matt 02,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,2
+61,61,Rachael,1995,GCB,Parton,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1995.tb00002.x/abstract, 10.1111/j.1365-2486.1995.tb00002.x,Yes,AndrewW 32,,,,,,,,,,,,AndrewW,32
+62,62,Rachael,1995,GCB,STRATHDEE,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1995.tb00003.x/abstract,10.1111/j.1365-2486.1995.tb00003.x,Yes,Naia 33,,,,,,,,,,,,Naia,33
+63,63,Rachael,1995,GCB,HENDERSON-SELLERS,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1995.tb00007.x/abstract,10.1111/j.1365-2486.1995.tb00007.x,Yes,Matt 10,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,"climate modeling study, no site-based field ecology component and no citation of mean climates",Matt,10
+64,64,Rachael,1995,GCB,POLLARD,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1995.tb00010.x/abstract,10.1111/j.1365-2486.1995.tb00010.x,Yes,Meagan 44,yes,weather effects,past,TRUE,TRUE,1900,1960,not_specified,TRUE,regional,,Meagan,44
+65,65,Rachael,1995,GCB,HOLLAND,http://onlinelibrary.wiley.com/store/10.1111/j.1365-2486.1995.tb00011.x/asset/j.1365-2486.1995.tb00011.x.pdf?v=1&t=i4na78hl&s=867b4c7851dbe5d6f3c69930d0990a8ae0c16590,10.1111/j.1365-2486.1995.tb00011.x,Yes,Meagan 03,,,,,,,,,,,,Meagan,3
+66,66,Rachael,1995,GCB,HUTCHIN,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1995.tb00012.x/abstract,10.1111/j.1365-2486.1995.tb00012.x,Yes,Carrie 24,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,actually a lab experiment,Carrie,24
+67,67,Rachael,1995,GCB,SELIGMAN,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1995.tb00016.x/abstract,10.1111/j.1365-2486.1995.tb00016.x,Yes,Matt 04,yes,climate change effects,unclear,FALSE,FALSE,NA,NA,not_specified,FALSE,NA,model simulation study; climate data is cited from the field site of a different study,Matt,4
+68,68,Rachael,1995,GCB,VICTORIA,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1995.tb00018.x/abstract,10.1111/j.1365-2486.1995.tb00018.x,Yes,AndrewT 53,,,,,,,,,,,,AndrewT,53
+69,69,Rachael,1995,GCB,MASSMAN,http://onlinelibrary.wiley.com/store/10.1111/j.1365-2486.1995.tb00020.x/asset/j.1365-2486.1995.tb00020.x.pdf?v=1&t=i4nb07ql&s=2fd5660aa57b628911415c10a3e425f36a76eb70,10.1111/j.1365-2486.1995.tb00020.x,Yes,Rachael 11,yes,not temporal,implicit past,FALSE,NA,,,not_specified,TRUE,site,paper citations for site descriptions,Rachael,11
+70,70,Rachael,1995,GCB,ACKERLY,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1995.tb00021.x/abstract,10.1111/j.1365-2486.1995.tb00021.x,Yes,Cory 13,,,,,,,,,,,,Cory,13
+71,71,Rachael,1995,GCB,ETTL,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1995.tb00023.x/abstract,10.1111/j.1365-2486.1995.tb00023.x,Yes,AndrewT 20,yes,climate change effects,present,TRUE,TRUE,1895,1990,station data,TRUE,regional,Climate data from divisional weather stations,AndrewT,20
+72,72,Rachael,1995,GCB,ETTL2,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1995.tb00024.x/abstract,10.1111/j.1365-2486.1995.tb00024.x,Yes,AndrewW 24,,,,,,,,,,,,AndrewW,24
+73,73,Rachael,1995,GCB,ZHOU,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1995.tb00029.x/abstract,10.1111/j.1365-2486.1995.tb00029.x,Yes,Meagan 47,yes,weather effects,implicit past,TRUE,TRUE,1965,1995,station data,TRUE,regional,,Meagan,47
+74,74,Rachael,1995,GCB,WAYNE,http://onlinelibrary.wiley.com/store/10.1111/j.1365-2486.1995.tb00030.x/asset/j.1365-2486.1995.tb00030.x.pdf?v=1&t=i4ncpue2&s=69ee48c8dd0d6b0f2fb6cb2afccd049a372c22b4,10.1111/j.1365-2486.1995.tb00030.x,Yes,Cory 31,,,,,,,,,,,,Cory,31
+75,75,Rachael,1995,GCB,WILKS,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1995.tb00032.x/abstract,10.1111/j.1365-2486.1995.tb00032.x,Yes,AndrewT 16,yes,climate change effects,implicit present,FALSE,TRUE,1952,1974,station data,TRUE,continental,climate data from three weather stations,AndrewT,16
+76,76,Rachael,1995,GCB,JONGEN,http://onlinelibrary.wiley.com/store/10.1111/j.1365-2486.1995.tb00034.x/asset/j.1365-2486.1995.tb00034.x.pdf?v=1&t=i4nd2xmw&s=4ffdaae6aff7a6087bda9620e6ed102891ce33f1,10.1111/j.1365-2486.1995.tb00034.x,Yes,Meagan 48,yes,not temporal,implicit past,TRUE,TRUE,1993,1993,station data,FALSE,site,are CO2 studies non-temporal?,Meagan,48
+77,77,Rachael,1995,GCB,LAMBERS,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1995.tb00038.x/abstract,10.1111/j.1365-2486.1995.tb00038.x,Yes,Meagan 43,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,review,Meagan,43
+78,78,Rachael,1995,GCB,KIMBALL,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1995.tb00041.x/abstract,10.1111/j.1365-2486.1995.tb00041.x,Yes,Erin 52,,,,,,,,,,,,Erin,52
+79,79,Rachael,1995,GCB,GRANT,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1995.tb00042.x/abstract,10.1111/j.1365-2486.1995.tb00042.x,Yes,Naia 26,yes,weather effects,past,FALSE,TRUE,1993,1993,site data,FALSE,site,only temp measurements for one day. Field experiment - weather effects ok??,Naia,26
+80,80,Rachael,1995,GCB,PAN,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.1996.tb00045.x/abstract,10.1111/j.1365-2486.1996.tb00045.x,Yes,Cory 04,,,,,,,,,,,,Cory,4
+81,81,Rachael,2010,Ecology_Letters,Cheng-Yuan,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01395.x/asset/j.1461-0248.2009.01395.x.pdf?v=1&t=i55p7i2w&s=d44f84e722a8956d8d6b6fc0ebfa110995710db3,10.1111/j.1461-0248.2009.01395.x,Yes,Erin 13,yes,not temporal,unclear,TRUE,FALSE,NA,NA,multiple sources,TRUE,regional,climate data only described in supplemental materials. Worldclim + data from Center for International Earth Science Information Network,Erin,13
+82,82,Rachael,2010,Ecology_Letters,Bagchi,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01397.x/asset/j.1461-0248.2009.01397.x.pdf?v=1&t=i55p8vba&s=c779ac35e2b4fdfc110b9fc6820251ce819cefc1,10.1111/j.1461-0248.2009.01397.x,Yes,Rachael 51,yes,,,,,,,,,,,Rachael,51
+83,83,Rachael,2010,Ecology_Letters,Laliberté,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01403.x/asset/j.1461-0248.2009.01403.x.pdf?v=1&t=i55pbijq&s=fe98e2175c0723d6e48ed45f0009dfb157e09f48,10.1111/j.1461-0248.2009.01403.x,Yes,Cory 19,,,,,,,,,,,,Cory,19
+84,84,Rachael,2010,Ecology_Letters,O'Dwyer,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01404.x/asset/j.1461-0248.2009.01404.x.pdf?v=1&t=i55pc1to&s=06efd9803226b4b8ef4d3ad01533865afdde4abd,10.1111/j.1461-0248.2009.01404.x,Yes,AndrewW 54,,,,,,,,,,,,AndrewW,54
+85,85,Rachael,2010,Ecology_Letters,Cadotte,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01405.x/asset/j.1461-0248.2009.01405.x.pdf?v=1&t=i55pclhv&s=9ed48ca555666adb9fd9f97ef1dd498a36fe865e,10.1111/j.1461-0248.2009.01405.x,Yes,Erin 24,yes,not temporal,implicit present,TRUE,FALSE,NA,NA,not_specified,TRUE,site,climate only used for site description,Erin,24
+86,86,Rachael,2010,Ecology_Letters,Jani,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01401.x/asset/j.1461-0248.2009.01401.x.pdf?v=1&t=i55pd3fp&s=12a89e2defae46b0d9eed4ff450d870f91a6deae,10.1111/j.1461-0248.2009.01401.x,Yes,Cory 28,,,,,,,,,,,,Cory,28
+87,87,Rachael,2010,Ecology_Letters,Grosholz,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01409.x/asset/j.1461-0248.2009.01409.x.pdf?v=1&t=i55pdv7u&s=b59b4a86c4033cb4bfab9bb56580c8b51c49bd54,10.1111/j.1461-0248.2009.01409.x,Yes,Erin 44,,,,,,,,,,,,Erin,44
+88,88,Rachael,2010,Ecology_Letters,Cronin,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01420.x/asset/j.1461-0248.2009.01420.x.pdf?v=1&t=i55pecth&s=62a2768a59fa7386a4c235479e28d25492bd19a0,10.1111/j.1461-0248.2009.01420.x,Yes,Prahlad 02,,,,,,,,,,,,Prahlad,2
+89,89,Rachael,2010,Ecology_Letters,Cheng,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01421.x/asset/j.1461-0248.2009.01421.x.pdf?v=1&t=i55pg08x&s=9f0a2beb6b534a22dcb845b9260c17bc7804f135,10.1111/j.1461-0248.2009.01421.x,Yes,Naia 57,,,,,,,,,,,,Naia,57
+90,90,Rachael,2010,Ecology_Letters,Hol,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01424.x/asset/j.1461-0248.2009.01424.x.pdf?v=1&t=i55pgwbk&s=cdc9d382ae62e00d7dd7ccaad2c7dde557b52a55,10.1111/j.1461-0248.2009.01424.x,Yes,Cory 24,,,,,,,,,,,,Cory,24
+91,91,Rachael,2010,Ecology_Letters,Laca,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01423.x/asset/j.1461-0248.2009.01423.x.pdf?v=1&t=i55phe42&s=70ceb112641cab20fd2a5fb24a878c624cba7ba2,10.1111/j.1461-0248.2009.01423.x,Yes,Cory 57,,,,,,,,,,,,Cory,57
+92,92,Rachael,2010,Ecology_Letters,Goto,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01425.x/asset/j.1461-0248.2009.01425.x.pdf?v=1&t=i55phumz&s=046cc15ee367be1c0d11e89e9d37ddf699a3e772,10.1111/j.1461-0248.2009.01425.x,Yes,Matt 33,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,33
+93,93,Rachael,2010,Ecology_Letters,Arvanitis,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01429.x/asset/j.1461-0248.2009.01429.x.pdf?v=1&t=i55pi9h5&s=6f2f59eb9cc3e7086aa6b62ad455a4dbcaecd29c,10.1111/j.1461-0248.2009.01429.x,Yes,Meagan 41,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Meagan,41
+94,94,Rachael,2010,Ecology_Letters,Northfield,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01428.x/asset/j.1461-0248.2009.01428.x.pdf?v=1&t=i55pjmdv&s=7e2f139f4351275e7938afe36bd4b3630ae27736,10.1111/j.1461-0248.2009.01428.x,Yes,Erin 53,,,,,,,,,,,,Erin,53
+95,95,Rachael,2010,Ecology_Letters,Walker,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01434.x/asset/j.1461-0248.2009.01434.x.pdf?v=1&t=i55pk9gz&s=51bc6cd2dfbeb797d08b1e8bb426eaeb637e0168,10.1111/j.1461-0248.2009.01434.x,Yes,Meagan 10,yes,climate change effects,implicit past,TRUE,TRUE,1950,2000,not_specified,TRUE,regional,,Meagan,10
+96,96,Rachael,2010,Ecology_Letters,Salomon,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01436.x/asset/j.1461-0248.2009.01436.x.pdf?v=1&t=i55xtec3&s=a487653a85ed4319d45bd504f46f9e6d83f245fe,10.1111/j.1461-0248.2009.01436.x,Yes,Matt 37,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,37
+97,97,Rachael,2010,Ecology_Letters,Kaiser-Bunbury,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2009.01437.x/asset/j.1461-0248.2009.01437.x.pdf?v=1&t=i55xy27d&s=0ba9be89b74126a1dc6b622404984ad6df4b259c,10.1111/j.1461-0248.2009.01437.x,Yes,Matt 15,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,15
+98,98,Rachael,2010,Ecology_Letters,Oliver,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2010.01441.x/asset/j.1461-0248.2010.01441.x.pdf?v=1&t=i55y71kw&s=08cc39ece6ced661e90d3d9199073547a40cf9d1,10.1111/j.1461-0248.2010.01441.x,Yes,Meagan 37,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Meagan,37
+99,99,Rachael,2010,Ecology_Letters,Bertheau,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2010.01445.x/asset/j.1461-0248.2010.01445.x.pdf?v=1&t=i55yxfk3&s=d48053f42b31c217a5aedabea9a2d029411f88a4,10.1111/j.1461-0248.2010.01445.x,Yes,Prahlad 04,,,,,,,,, ,,,Prahlad,4
+100,100,Rachael,2010,Ecology_Letters,MacLeod,http://onlinelibrary.wiley.com/store/10.1111/j.1461-0248.2010.01446.x/asset/j.1461-0248.2010.01446.x.pdf?v=1&t=i55z61ni&s=71ad5cda10ee32ef64312bebfbe187ed10c1300a,10.1111/j.1461-0248.2010.01446.x,Yes,Meagan 05,,,,,,,,,,,,Meagan,5
+101,101,Rachael,1990,American_Naturalist,Lessios,http://www.jstor.org/stable/2462134,NA,Yes,AndrewW 08,,,,,,,,,,,,AndrewW,8
+102,102,Rachael,1990,American_Naturalist,Armbruster,http://www.jstor.org/stable/2462135,NA,Yes,Prahlad 57,,,,,,,,,,,,Prahlad,57
+103,103,Rachael,1990,American_Naturalist,Wilbur,http://www.jstor.org/stable/2462237,NA,Yes,Naia 12,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,not terrestrial,Naia,12
+104,104,Rachael,1990,American_Naturalist,Warner,http://www.jstor.org/stable/2462238,NA,Yes,Carrie 44,,,,,,,,,,,,Carrie,44
+105,105,Rachael,1990,American_Naturalist,Cohen,http://www.jstor.org/stable/2462239,NA,Yes,Erin 03,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Erin,3
+106,106,Rachael,1990,American_Naturalist,Morton,http://www.jstor.org/stable/2462249,NA,Yes,Prahlad 55,,,,,,,,,,,,Prahlad,55
+107,107,Rachael,1990,American_Naturalist,Anderson,http://www.jstor.org/stable/2462250,NA,Yes,Matt 52,,,,,,,,,,,,Matt,52
+108,108,Rachael,1990,American_Naturalist,Kadmon,http://www.jstor.org/stable/2462253,NA,Yes,Matt 26,yes,not temporal,present,TRUE,FALSE,NA,NA,site data,TRUE,site,"Some climate data has citation, while some doesn't",Matt,26
+109,109,Rachael,1990,American_Naturalist,Stamps, http://www.jstor.org/stable/2462026,NA,Yes,Prahlad 05,,,,,,,,,,,,Prahlad,5
+110,110,Rachael,1990,American_Naturalist,Collins,http://www.jstor.org/stable/2462027,NA,Yes,Cory 12,,,,,,,,,,,,Cory,12
+111,111,Rachael,1990,American_Naturalist,Stephenson,http://www.jstor.org/stable/2462028,NA,Yes,Erin 25,yes,not temporal,inconsistent,TRUE,FALSE,NA,NA,not_specified,TRUE,regional,"climatic/water balance controls of vegetation distribution (not temporal). Climate data were 30 yr averages, but specific interval dates not specified. Implicit past tense used when describing data source (methods). Present tense used when describing/discussing water balance and deficit at specific regions & locations (results & discussion)",Erin,25
+112,112,Rachael,1990,American_Naturalist,Bennett,http://www.jstor.org/stable/2462311,NA,Yes,Prahlad 21,,,,,,,,,,,,Prahlad,21
+113,113,Rachael,1990,American_Naturalist,Chai ,http://www.jstor.org/stable/2462312,NA,Yes,Prahlad 31,,,,,,,,,,,,Prahlad,31
+114,114,Rachael,1990,American_Naturalist,Srygley,http://www.jstor.org/stable/2462313,NA,Yes,Meagan 53,yes,weather effects,unclear,TRUE,TRUE,1985,1987,site data,FALSE,site,,Meagan,53
+115,115,Rachael,1990,American_Naturalist,Fox,http://www.jstor.org/stable/2462316,NA,Yes,AndrewW 57,,,,,,,,,,,,AndrewW,57
+116,116,Rachael,1990,American_Naturalist,Packer, http://www.jstor.org/stable/2556343,NA,Yes,Erin 45,,,,,,,,,,,,Erin,45
+117,117,Rachael,1990,American_Naturalist,Beissinger,http://www.jstor.org/stable/2556344,NA,Yes,AndrewT 03,no,not temporal,implicit present,FALSE,NA,NA,NA,not_specified,FALSE,regional,"citation provided on rainy / dry seasons, years only for study date range",AndrewT,3
+118,118,Rachael,1990,American_Naturalist,Dayan,http://www.jstor.org/stable/2556345,NA,Yes,Naia 43,,,,,,,,,,,,Naia,43
+119,119,Rachael,1990,American_Naturalist,Devlin, http://www.jstor.org/stable/2556347,NA,Yes,Prahlad 45,,,,,,,,,,,,Prahlad,45
+120,120,Rachael,1990,American_Naturalist,Smith,http://www.jstor.org/stable/2462322,NA,Yes,AndrewT 30,no,not temporal,,,NA,,,,,site,no climate information in paper,AndrewT,30
+121,121,Naia,1998,Ecology_Letters,Cebrian,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.1998.00040.x/full,10.1046/j.1461-0248.1998.00040.x,Yes,Rachael 12,no,not temporal,,,,,,,,,no climate data,Rachael,12
+122,122,Naia,1999,Ecology_Letters,Oberdorff,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.1999.t01-2-22051.x/abstract,10.1046/j.1461-0248.1999.t01-2-22051.x,Yes,Meagan 27,yes,not temporal,implicit present,TRUE,FALSE,NA,NA,not_specified,TRUE,global,,Meagan,27
+123,123,Naia,1999,Ecology_Letters,Paradis,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.1999.22060.x/abstract,10.1046/j.1461-0248.1999.22060.x,Yes,Prahlad 10,,,,,,,,,,,,Prahlad,10
+124,124,Naia,1999,Ecology_Letters,Crawley,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.1999.00056.x/full,10.1046/j.1461-0248.1999.00056.x,Yes,Prahlad 13,,,,,,,,,,,,Prahlad,13
+125,125,Naia,1999,Ecology_Letters,Spencer,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.1999.00062.x/full,10.1046/j.1461-0248.1999.00062.x,Yes,Matt 28,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,aquatic,Matt,28
+126,126,Naia,1999,Ecology_Letters,Haemig,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.1999.00065.x/full,10.1046/j.1461-0248.1999.00065.x,Yes,AndrewW 16,,,,,,,,,,,,AndrewW,16
+127,127,Naia,1999,Ecology_Letters,Kawata,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.1999.00071.x/full,10.1046/j.1461-0248.1999.00071.x,Yes,Naia 10,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,lab experiment,Naia,10
+128,128,Naia,1999,Ecology_Letters,Wilson,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.1999.00084.x/full,10.1046/j.1461-0248.1999.00084.x,Yes,AndrewW 44,,,,,,,,,,,,AndrewW,44
+129,129,Naia,1999,Ecology_Letters,Stone,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.1999.00092.x/full,10.1046/j.1461-0248.1999.00092.x,Yes,Erin 40,,,,,,,,,,,,Erin,40
+130,130,Naia,1999,Ecology_Letters,Spicer,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.1999.00105.x/full,10.1046/j.1461-0248.1999.00105.x,Yes,Erin 39,,,,,,,,,,,,Erin,39
+131,131,Naia,2010,Journal_of_Ecology,Tecco,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01592.x/full,10.1111/j.1365-2745.2009.01592.x,Yes,Naia 37,,,,,,,,,,,,Naia,37
+132,132,Naia,2010,Journal_of_Ecology,Leishman,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01608.x/full,10.1111/j.1365-2745.2009.01608.x,Yes,Meagan 25,yes,not temporal,implicit present,TRUE,FALSE,NA,NA,not_specified,FALSE,continental,,Meagan,25
+133,133,Naia,2010,Journal_of_Ecology,Robson,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01609.x/full,10.1111/j.1365-2745.2009.01609.x,Yes,Erin 19,yes,not temporal,present,TRUE,FALSE,NA,NA,not_specified,FALSE,site,climate given with site description but with no citation/source information,Erin,19
+134,134,Naia,2010,Journal_of_Ecology,Ruijven,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01603.x/full,10.1111/j.1365-2745.2009.01603.x,Yes,Carrie 01,yes,weather effects,present,TRUE,FALSE,NA,NA,site data,TRUE,site,,Carrie,1
+135,135,Naia,2010,Journal_of_Ecology,Keppel,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01595.x/full,10.1111/j.1365-2745.2009.01595.x,Yes,Prahlad 46,,,,,,,,,,,,Prahlad,46
+136,136,Naia,2010,Journal_of_Ecology,Odion,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01597.x/full,10.1111/j.1365-2745.2009.01597.x,Yes,Cory 36,,,,,,,,,,,,Cory,36
+137,137,Naia,2010,Journal_of_Ecology,Ferry,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01604.x/full,10.1111/j.1365-2745.2009.01604.x,Yes,Naia 25,yes,not temporal,present,TRUE,FALSE,NA,NA,not_specified,TRUE,site,"mean climate for 30 years given in present tense, but own measurements in past tense and compared to mean climate",Naia,25
+138,138,Naia,2010,Journal_of_Ecology,Dornbush,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01605.x/full,10.1111/j.1365-2745.2009.01605.x,Yes,Erin 07,yes,not temporal,inconsistent,TRUE,TRUE,2003,2006,not_specified,TRUE,site,"Present tense when referring to climate at site, past tense when referring to the specific years of the study. Provide website to station data, but do not explicitly state data is from weather station in methods or provide any details on station name/location",Erin,7
+139,139,Naia,2010,Journal_of_Ecology,Bartelheimer,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01598.x/full,10.1111/j.1365-2745.2009.01598.x,Yes,Meagan 17,yes,not temporal,past,TRUE,TRUE,2006,2007,station data,FALSE,site,,Meagan,17
+140,140,Naia,2010,Journal_of_Ecology,Gonzalez,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01607.x/full,10.1111/j.1365-2745.2009.01607.x,Yes,Naia 11,yes,not temporal,present,TRUE,FALSE,NA,NA,not_specified,FALSE,site,ha! a good example of bad climate tense use and lack of citation,Naia,11
+141,141,Naia,2010,Journal_of_Ecology,Gallery,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01589.x/full,10.1111/j.1365-2745.2009.01589.x,Yes,Erin 16,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Erin,16
+142,142,Naia,2010,Journal_of_Ecology,Cramer,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01594.x/full,10.1111/j.1365-2745.2009.01594.x,Yes,Erin 08,yes,not temporal,present,TRUE,FALSE,NA,NA,not_specified,TRUE,site,,Erin,8
+143,143,Naia,2010,Journal_of_Ecology,Beckstead,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01599.x/full,10.1111/j.1365-2745.2009.01599.x,Yes,AndrewT 42,,,,,,,,,,,,AndrewT,42
+144,144,Naia,2010,Journal_of_Ecology,Geert,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01600.x/full,10.1111/j.1365-2745.2009.01600.x,Yes,AndrewT 08,no,not temporal,unclear,TRUE,NA,NA,NA,NA,FALSE,site,no climate information provided bar observation of weather as 'sunny' during study period,AndrewT,8
+145,145,Naia,2010,Journal_of_Ecology,Dauber,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01590.x/full,10.1111/j.1365-2745.2009.01590.x,Yes,AndrewT 01,no,not temporal,unclear,FALSE,FALSE,NA,NA,not_specified,FALSE,continental,sites selected for climatic zones and air temperature observed but not presented in study other than as adjusted parameters for model,AndrewT,1
+146,146,Naia,2010,Journal_of_Ecology,Wyckoff,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01602.x/full,10.1111/j.1365-2745.2009.01602.x,Yes,Rachael 54,,,,,,,,,,,,Rachael,54
+147,147,Naia,2010,Journal_of_Ecology,Dalgleish,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01585.x/full,10.1111/j.1365-2745.2009.01585.x,Yes,AndrewT 38,,,,,,,,,,,,AndrewT,38
+148,148,Naia,2010,Journal_of_Ecology,Davison,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01611.x/full,10.1111/j.1365-2745.2009.01611.x,Yes,Cory 11,,,,,,,,,,,,Cory,11
+149,149,Naia,2010,Journal_of_Ecology,Jongejans,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01612.x/full,10.1111/j.1365-2745.2009.01612.x,Yes,AndrewW 43,,,,,,,,,,,,AndrewW,43
+150,150,Naia,2010,Journal_of_Ecology,Salguero-Gomez,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2009.01616.x/full,10.1111/j.1365-2745.2009.01616.x,Yes,AndrewW 12,,,,,,,,,,,,AndrewW,12
+151,151,Naia,2000,PNAS,Price,http://www.pnas.org/content/97/3/1247.full,10.1073/pnas.97.3.1247,Yes,Matt 48,,,,,,,,,,,,Matt,48
+152,152,Naia,2000,PNAS,Lobitz,http://www.pnas.org/content/97/4/1438.full,10.1073/pnas.97.4.1438,Yes,Matt 47,yes,not temporal,present,TRUE,FALSE,NA,NA,NA,FALSE,site,"no field site, although some climate data is used in study",Matt,47
+153,153,Naia,2000,PNAS,Inouye,http://www.pnas.org/content/97/4/1630.full,10.1073/pnas.97.4.1630,Yes,Rachael 17,yes,climate change effects,past,TRUE,TRUE,1975,1999,multiple sources,NA,site,weather data? Only 23 years,Rachael,17
+154,154,Naia,2000,PNAS,Trussell,http://www.pnas.org/content/97/5/2123.full,10.1073/pnas.040423397,Yes,Erin 46,,,,,,,,,,,,Erin,46
+155,155,Naia,2000,PNAS,Sanchez-Cordero,http://www.pnas.org/content/97/13/7074.full,10.1073/pnas.110489897,Yes,AndrewT 41,,,,,,,,,,,,AndrewT,41
+156,156,Naia,2000,PNAS,Dynesius,http://www.pnas.org/content/97/16/9115.full,10.1073/pnas.97.16.9115,Yes,Prahlad 41,,,,,,,,,,,,Prahlad,41
+157,157,Naia,2000,PNAS,Plotkin,http://www.pnas.org/content/97/20/10850.full,10.1073/pnas.97.20.10850,Yes,Prahlad 18,,,,,,,,,,,,Prahlad,18
+158,158,Naia,2000,PNAS,Uno,http://www.pnas.org/content/97/21/11632.full,10.1073/pnas.190309197,Yes,Naia 20,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,lab experiment,Naia,20
+159,159,Naia,2000,PNAS,Owens,http://www.pnas.org/content/97/22/12144.full,10.1073/pnas.200223397,Yes,AndrewW 30,,,,,,,,,,,,AndrewW,30
+160,160,Naia,2000,PNAS,Armitage,http://www.pnas.org/content/97/22/12149.full,10.1073/pnas.200196097,Yes,AndrewT 10,no,not temporal,,NA,,,,NA,,site,no climate reference,AndrewT,10
+161,161,Naia,2000,PNAS,Korol,http://www.pnas.org/content/97/23/12637.full,10.1073/pnas.220041397,Yes,Meagan 32,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no climate data; discussed microclimates, but did not have any climate data to support difference in climate between sites",Meagan,32
+162,162,Naia,2000,PNAS,Roy,http://www.pnas.org/content/97/24/13150.full,10.1073/pnas.97.24.13150,Yes,Prahlad 08,,,,,,,,,,,,Prahlad,8
+163,163,Naia,2000,PNAS,Nakano,http://www.pnas.org/content/98/1/166.full,10.1073/pnas.98.1.166,Yes,AndrewT 11,yes,not temporal,past,TRUE,TRUE,1997,1998,site data,FALSE,site,"mean air temperature readings presented and explained in figure 1 only. Note that study looked at riparian system, both terrestrial and aquatic environments",AndrewT,11
+164,164,Naia,2001,PNAS,Lovvorn,http://www.pnas.org/content/98/5/2485.full,10.1073/pnas.041616098,Yes,AndrewW 22,,,,,,,,,,,,AndrewW,22
+165,165,Naia,2001,PNAS,Rahbek,http://www.pnas.org/content/98/8/4534.full,10.1073/pnas.071034898,Yes,Cory 25,,,,,,,,,,,,Cory,25
+166,166,Naia,2001,PNAS,Rothman,http://www.pnas.org/content/98/8/4305.full,10.1073/pnas.071047798,Yes,Cory 14,,,,,,,,,,,,Cory,14
+167,167,Naia,2001,PNAS,Paerl,http://www.pnas.org/content/98/10/5655.full,10.1073/pnas.101097398,Yes,AndrewW 41,,,,,,,,,,,,AndrewW,41
+168,168,Naia,2001,PNAS,Wilf,http://www.pnas.org/content/98/11/6221.full,10.1073/pnas.111069498,Yes,Prahlad 15,,,,,,,,,,,,Prahlad,15
+169,169,Naia,2001,PNAS,Nevo,http://www.pnas.org/content/98/11/6233.full,10.1073/pnas.101109298,Yes,Rachael 29,???,not temporal,implicit past,TRUE,FALSE,,,multiple sources,FALSE,regional,"discussed temperatures and microclimates, but did not show climate data to support difference in climate between sites",Rachael,29
+170,170,Naia,2001,PNAS,Romero,http://www.pnas.org/content/98/13/7366.full,10.1073/pnas.131091498,Yes,Meagan 02,yes,weather effects,present,FALSE,FALSE,NA,NA,not_specified,TRUE,site,,Meagan,2
+171,171,Erin,2000,Nature,Verschuren,www.nature.com/nature/journal/v403/n6768/full/403410a0.html,10.1038/35000179,Yes,Carrie 13,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,Climate data derived from lake cores (millenium scale),Carrie,13
+172,172,Erin,2000,Nature,Cardoso da Silva,www.nature.com/nature/journal/v404/n6773/full/404072a0.html,10.1038/35003563,Yes,Carrie 35,no,,,,,,,,,,,Carrie,35
+173,173,Erin,2000,Nature,Packer,www.nature.com/nature/journal/v404/n6775/full/404278a0.html,10.1038/35005072,Yes,Carrie 46,,,,,,,,,,,,Carrie,46
+174,174,Erin,2000,Nature,Houlahan,www.nature.com/nature/journal/v404/n6779/full/404752a0.html,10.1038/35008052,Yes,Cory 51,,,,,,,,,,,,Cory,51
+175,175,Erin,2000,Nature,Barber,www.nature.com/nature/journal/v405/n6787/full/405668a0.html,10.1038/35015049,Yes,AndrewT 14,yes,climate change effects,inconsistent,FALSE,TRUE,1906,1998,station data,FALSE,regional,weather stations named and shown on map in relation to study sites,AndrewT,14
+176,176,Erin,2000,Nature,Oechel,www.nature.com/nature/journal/v406/n6799/full/406978a0.html,10.1038/35023137,Yes,AndrewT 31,yes,climate change effects,past,FALSE,TRUE,1960,1998,regional,TRUE,regional,"supplementary information of carbon flux data. Methods refers to source of climate data (precipitation, temperature)",AndrewT,31
+177,177,Erin,2000,Nature,Greene,http://www.nature.com/nature/journal/v407/n6807/full/4071000a0.html,10.1038/35039500,Yes,Matt 07,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,7
+178,178,Erin,2000,Nature,Smith,http://www.nature.com/nature/journal/v408/n6808/full/408079a0.html,10.1038/35040544,Yes,Meagan 13,yes,weather effects,implicit present,TRUE,TRUE,1998,1998,not_specified,FALSE,site,,Meagan,13
+179,179,Erin,2000,Nature,Ims,http://www.nature.com/nature/journal/v408/n6809/full/408194a0.html,10.1038/35041562,Yes,Meagan 57,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Meagan,57
+180,180,Erin,2000,Nature,Karels,http://www.nature.com/nature/journal/v408/n6811/full/408460a0.html,10.1038/35044064,Yes,Rachael 08,yes,not temporal,implicit present,TRUE,FALSE,,,station data,FALSE,site,,Rachael,8
+181,181,Erin,2000,Nature,Hu,http://www.nature.com/nature/journal/v409/n6817/full/409188A0.html,10.1038/35051576,Yes,Rachael 13,no,not temporal,,,,,,,,,no climate data,Rachael,13
+182,182,Erin,2000,Nature,Kiesecker,http://www.nature.com/nature/journal/v410/n6829/full/410681a0.html,10.1038/35070500,Yes,Rachael 20,yes,weather effects,implicit past,FALSE,TRUE,1990,1999,multiple sources,TRUE,regional,,Rachael,20
+183,183,Erin,2001,Nature,Mysterud,http://www.nature.com/nature/journal/v410/n6832/full/4101096a0.html,10.1038/35074099,Yes,AndrewW 18,,,,,,,,,,,,AndrewW,18
+184,184,Erin,2001,Nature,Barbraud,http://www.nature.com/nature/journal/v411/n6834/full/411183a0.html,10.1038/35075554,Yes,Cory 07,,,,,,,,,,,,Cory,7
+185,185,Erin,2001,Nature,Both,http://www.nature.com/nature/journal/v411/n6835/full/411296a0.html,10.1038/35077063,Yes,Cory 56,,,,,,,,,,,,Cory,56
+186,186,Erin,2001,Nature,Högberg,http://www.nature.com/nature/journal/v411/n6839/full/411789a0.html,10.1038/35081058,Yes,AndrewT 49,,,,,,,,,,,,AndrewT,49
+187,187,Erin,2001,Nature,Ergon,http://www.nature.com/nature/journal/v411/n6841/full/4111043a0.html,10.1038/35082553,Yes,AndrewT 51,,,,,,,,,,,,AndrewT,51
+188,188,Erin,2001,Nature,Merilä,http://www.nature.com/nature/journal/v412/n6842/full/412076a0.html,10.1038/35083580,Yes,Naia 06,,,,,,,,,,,,Naia,6
+189,189,Erin,2001,Nature,Schoener,http://www.nature.com/nature/journal/v412/n6843/full/412183a0.html,10.1038/35084071,Yes,Prahlad 03,,,,,,,,,,,,Prahlad,3
+190,190,Erin,2001,Nature,Gill,http://www.nature.com/nature/journal/v412/n6845/full/412436a0.html,10.1038/35086568,Yes,Rachael 01,no,not temporal,,,,,,,,,"no climate data; discussed microclimates, but did not have any climate data to support difference in climate between sites",Rachael,1
+191,191,Erin,1980,PNAS,Wilson,http://www.pnas.org/content/77/4/2343.full.pdf+html,10.1073/pnas.77.4.2343,Yes,AndrewW 48,,,,,,,,,,,,AndrewW,48
+192,192,Erin,1980,PNAS,Lister,http://www.pnas.org/content/77/7/4185.abstract,10.1073/pnas.77.7.4185,Yes,Carrie 22,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Carrie,22
+193,193,Erin,1980,PNAS,Buss,http://www.pnas.org/content/77/9/5355.abstract,10.1073/pnas.77.9.5355,Yes,Matt 23,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,aquatic; no climate data,Matt,23
+194,194,Erin,1981,PNAS,Byron,http://www.pnas.org/content/78/3/1765.abstract,,Yes,AndrewW 06,,,,,,,,,,,,AndrewW,6
+195,195,Erin,1981,PNAS,Tunnicliffe,http://www.pnas.org/content/78/4/2427.abstract,,Yes,Rachael 16,no,,,,,,,,,,Marine: coral study,Rachael,16
+196,196,Erin,1982,PNAS,Faaborg,http://www.pnas.org/content/79/5/1563.abstract,,Yes,AndrewW 15,,,,,,,,,,,,AndrewW,15
+197,197,Erin,1982,PNAS,Porter,http://www.pnas.org/content/79/5/1678.abstract,,Yes,Cory 34,,,,,,,,,,,,Cory,34
+198,198,Erin,1982,PNAS,Diamond,http://www.pnas.org/content/79/7/2420.abstract,,Yes,Erin 37,,,,,,,,,,,,Erin,37
+199,199,Erin,1982,PNAS,Vannote,http://www.pnas.org/content/79/13/4103.abstract,,Yes,Meagan 22,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,stream temperatures,Meagan,22
+200,200,Erin,1983,PNAS,McNaughton,http://www.pnas.org/content/80/3/790.abstract,,Yes,Erin 32,,,,,,,,,,,,Erin,32
+201,201,Erin,1983,PNAS,Mooney,http://www.pnas.org/content/80/5/1295.abstract,,Yes,Meagan 35,yes,not temporal,present,TRUE,FALSE,NA,NA,not_specified,FALSE,site,,Meagan,35
+202,202,Erin,1983,PNAS,Grant,http://www.pnas.org/content/80/5/1298.abstract,,Yes,Meagan 51,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no climat data, but an awesome paper about hawkmoth pollination",Meagan,51
+203,203,Erin,1983,PNAS,Hurlbert,http://www.pnas.org/content/80/15/4766.abstract,,Yes,Naia 08,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,not terrestrial,Naia,8
+204,204,Erin,1983,PNAS,Blank,http://www.pnas.org/content/80/19/6141.abstract,,Yes,Naia 22,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate mentioned,Naia,22
+205,205,Erin,1983,PNAS,Carpenter,http://www.pnas.org/content/80/23/7259.abstract,,Yes,Prahlad 20,,,,,,,,,,,,Prahlad,20
+206,206,Erin,1984,PNAS,Kemp,http://www.pnas.org/content/81/3/811.abstract,,Yes,Cory 42,,,,,,,,,,,,Cory,42
+207,207,Erin,1984,PNAS,Leyden,http://www.pnas.org/content/81/15/4856.abstract,,Yes,Matt 06,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,paleo study,Matt,6
+208,208,Erin,1985,PNAS,Gaines,http://www.pnas.org/content/82/11/3707.abstract,,Yes,Matt 09,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,9
+209,209,Erin,1986,PNAS,Diamond,http://www.pnas.org/content/83/9/3042.abstract,,Yes,AndrewT 46,,,,,,,,,,,,AndrewT,46
+210,210,Erin,1986,PNAS,Hairston,http://www.pnas.org/content/83/13/4831.abstract,,Yes,Naia 13,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,not terrestrial,Naia,13
+211,211,Prahlada,1980,American_Naturalist,Kambysellis,http://www.jstor.org/stable/2460832,NA,Yes,Erin 34,,,,,,,,,,,,Erin,34
+212,212,Prahlada,1980,American_Naturalist,Caraco,http://www.jstor.org/stable/2460597,NA,Yes,Naia 15,yes,weather effects,past,TRUE,TRUE,1975,1976,site data,FALSE,site,temperature measured at data collection - agnostic to tense,Naia,15
+213,213,Prahlada,1980,American_Naturalist,Ehrlich,http://www.jstor.org/stable/2460721,NA,Yes,Matt 39,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,39
+214,214,Prahlada,1980,American_Naturalist,Powell,http://www.jstor.org/stable/2460485,NA,Yes,Prahlad 24,,,,,,,,,,,,Prahlad,24
+215,215,Prahlada,1980,American_Naturalist,Patterson,http://www.jstor.org/stable/2460689,NA,Yes,AndrewW 45,,,,,,,,,,,,AndrewW,45
+216,216,Prahlada,1980,American_Naturalist,Inger,http://www.jstor.org/stable/2460798,NA,Yes,Carrie 15,yes,weather effects,inconsistent,FALSE,TRUE,1967,1973,multiple sources,TRUE,regional,"Multiple weather sources for different sites, both past and present tense used",Carrie,15
+217,217,Prahlada,1980,American_Naturalist,Forcella,http://www.jstor.org/stable/2460448,NA,Yes,Carrie 17,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Carrie,17
+218,218,Prahlada,1980,American_Naturalist,Patterson_2,http://www.jstor.org/stable/2460406,NA,Yes,Carrie 56,,,,,,,,,,,,Carrie,56
+219,219,Prahlada,1980,American_Naturalist,Howarth,http://www.jstor.org/stable/2460412,NA,Yes,Cory 33,,,,,,,,,,,,Cory,33
+220,220,Prahlada,1981,American_Naturalist,Jordan,http://www.jstor.org/stable/2460498,NA,Yes,Erin 17,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Erin,17
+221,221,Prahlada,1981,American_Naturalist,Cox,http://www.jstor.org/stable/2460528,NA,Yes,Erin 20,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Erin,20
+222,222,Prahlada,1981,American_Naturalist,Force,http://www.jstor.org/stable/2460469,NA,Yes,Matt 18,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,18
+223,223,Prahlada,1981,American_Naturalist,Grace,http://www.jstor.org/stable/2460778,NA,Yes,Matt 21,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,21
+224,224,Prahlada,1981,American_Naturalist,Hay,http://www.jstor.org/stable/2460782,NA,Yes,Matt 34,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,aquatic,Matt,34
+225,225,Prahlada,1981,American_Naturalist,Armesto,http://www.jstor.org/stable/2460793,NA,Yes,Meagan 11,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Meagan,11
+226,226,Prahlada,1981,American_Naturalist,Chew,http://www.jstor.org/stable/2460606,NA,Yes,Meagan 19,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Meagan,19
+227,227,Prahlada,1982,American_Naturalist,McInnis,http://www.jstor.org/stable/2460931,NA,Yes,Meagan 49,yes,not temporal,implicit past,TRUE,TRUE,1977,1977,multiple sources,FALSE,site,field meaurements and station data,Meagan,49
+228,228,Prahlada,1982,American_Naturalist,Ebenman,http://www.jstor.org/stable/2460932,NA,Yes,Naia 47,,,,,,,,,,,,Naia,47
+229,229,Prahlada,1982,American_Naturalist,Riebesell,http://www.jstor.org/stable/2461184,NA,Yes,Rachael 07,no,,,,,,,,,,no climate data,Rachael,7
+230,230,Prahlada,1982,American_Naturalist,Bertin,http://www.jstor.org/stable/2461186,NA,Yes,Rachael 41,,,,,,,,,,,,Rachael,41
+231,231,Prahlada,2000,Ecology_Letters,McGeoch,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2000.00114.x/pdf,10.1046/j.1461-0248.2000.00114.x,Yes,Matt 14,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,14
+232,232,Prahlada,2000,Ecology_Letters,Svereva,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2000.00125.x/pdf,10.1046/j.1461-0248.2000.00125.x,Yes,Erin 36,,,,,,,,,,,,Erin,36
+233,233,Prahlada,2000,Ecology_Letters,Lord,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2000.00150.x/pdf,10.1046/j.1461-0248.2000.00150.x,Yes,Erin 38,,,,,,,,,,,,Erin,38
+234,234,Prahlada,2000,Ecology_Letters,Arnold,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2000.00159.x/pdf,10.1046/j.1461-0248.2000.00159.x,Yes,Carrie 39,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Carrie,39
+235,235,Prahlada,2000,Ecology_Letters,Curtin,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2000.00166.x/pdf,10.1046/j.1461-0248.2000.00166.x,Yes,Meagan 50,yes,weather effects,implicit past,TRUE,TRUE,1867,1992,station data,TRUE,regional,,Meagan,50
+236,236,Prahlada,2000,Ecology_Letters,Lombardero,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2000.00163.x/pdf,10.1046/j.1461-0248.2000.00163.x,Yes,Prahlad 50,,,,,,,,,,,,Prahlad,50
+237,237,Prahlada,2000,Ecology_Letters,Prieur-Richard,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2000.00157.x/pdf,10.1046/j.1461-0248.2000.00157.x,Yes,Rachael 27,yes,not temporal,past,TRUE,FALSE,,,not_specified,TRUE,site,,Rachael,27
+238,238,Prahlada,2000,Ecology_Letters,Steffan-Dewenter,http://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2000.00175.x/pdf,10.1111/j.1461-0248.2000.00175.x,Yes,Erin 54,,,,,,,,,,,,Erin,54
+239,239,Prahlada,2000,Ecology_Letters,Lundberg,http://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2000.00170.x/pdf,10.1111/j.1461-0248.2000.00170.x,Yes,Erin 57,,,,,,,,,,,,Erin,57
+240,240,Prahlada,2000,Ecology_Letters,Rillig,http://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2000.00178.x/pdf,10.1111/j.1461-0248.2000.00178.x,Yes,Erin 27,yes,not temporal,present,TRUE,FALSE,NA,NA,NA,FALSE,site,elevated CO2 exposure. Climate only referenced in site description,Erin,27
+241,241,Prahlada,2000,Ecology_Letters,Pannell,http://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2000.00173.x/pdf,10.1111/j.1461-0248.2000.00173.x,Yes,Rachael 02,no,,,,,,,,,,no climate data,Rachael,2
+242,242,Prahlada,2000,Ecology_Letters,McCallum,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2000.00120.x/pdf,10.1046/j.1461-0248.2000.00120.x,Yes,AndrewW 21,,,,,,,,,,,,AndrewW,21
+243,243,Prahlada,2000,Ecology_Letters,Holyoak,http://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2000.00180.x/pdf,10.1111/j.1461-0248.2000.00180.x,Yes,Prahlad 19,,,,,,,,,,,,Prahlad,19
+244,244,Prahlada,2001,Ecology_Letters,Bullock,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2001.00215.x/pdf,10.1046/j.1461-0248.2001.00215.x,Yes,Prahlad 23,,,,,,,,,,,,Prahlad,23
+245,245,Prahlada,2001,Ecology_Letters,Humeau,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2001.00217.x/pdf,10.1046/j.1461-0248.2001.00217.x,Yes,AndrewW 37,,,,,,,,,,,,AndrewW,37
+246,246,Prahlada,2001,Ecology_Letters,Lyons,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2001.00235.x/pdf,10.1046/j.1461-0248.2001.00235.x,Yes,Erin 35,,,,,,,,,,,,Erin,35
+247,247,Prahlada,2001,Ecology_Letters,Siemann,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2001.00274.x/pdf,10.1046/j.1461-0248.2001.00274.x,Yes,AndrewT 21,no,not temporal,,NA,NA,NA,NA,station data,FALSE,site,precipitation range (175-200cm/yr) provided for site without reference to years or min/max of range. Experiment involved taking soil and air temperatures in 1983('second growing season') over 4 months,AndrewT,21
+248,248,Prahlada,2001,Ecology_Letters,Foster,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2001.00266.x/pdf,10.1046/j.1461-0248.2001.00266.x,Yes,Carrie 08,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Carrie,8
+249,249,Prahlada,2001,Ecology_Letters,Joshi,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2001.00262.x/pdf,10.1046/j.1461-0248.2001.00262.x,Yes,Rachael 30,yes,not temporal,past,TRUE,FALSE,,,not_specified,TRUE,continental,,Rachael,30
+250,250,Prahlada,2001,Ecology_Letters,Loya,http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2001.00203.x/pdf,10.1046/j.1461-0248.2001.00203.x,Yes,Rachael 44,,,,,,,,,,,,Rachael,44
+251,251,Prahlada,2010,PNAS,Young,http://www.pnas.org/content/107/5/2072.full.pdf,10.1073/pnas.0914169107,Yes,Prahlad 40,,,,,,,,,,,,Prahlad,40
+252,252,Prahlada,2010,PNAS,Forister,http://www.pnas.org/content/107/5/2088.full.pdf,10.1073/pnas.0909686107,Yes,Meagan 07,yes,climate change effects,implicit past,TRUE,TRUE,1970,2007,multiple sources,FALSE,regional,station and PRISM data,Meagan,7
+253,253,Prahlada,2010,PNAS,Johnstone,http://www.pnas.org/content/107/10/4533.full.pdf,10.1073/pnas.0915062107,Yes,Erin 14,yes,climate change effects,inconsistent,TRUE,TRUE,1951,2008,multiple sources,TRUE,regional,"multiple sources: station data (USHCN v2), interpolated SST, PRISM, PDO, etc. with multiple date ranges. Most of climate descriptions in present tense, but some results of recent historical trends in past tense",Erin,14
+254,254,Prahlada,2010,PNAS,McCaffery,http://www.pnas.org/content/107/19/8644.full.pdf,10.1073/pnas.0912945107,Yes,Erin 47,,,,,,,,,,,,Erin,47
+255,255,Prahlada,2010,PNAS,Yu,http://www.pnas.org/content/107/51/22151.full.pdf,10.1073/pnas.1012490107,Yes,Meagan 54,yes,climate change effects,implicit past,TRUE,TRUE,1982,2006,multiple sources,TRUE,regional,China Land Surface Monthly Temperature Grid,Meagan,54
+256,256,Prahlada,2010,PNAS,Hickman,http://www.pnas.org/content/107/22/10115.full.pdf,10.1073/pnas.0912279107,Yes,Rachael 14,no,,,,,,,,,,"uses CO2 data, but no temp or precip data",Rachael,14
+257,257,Prahlada,2010,PNAS,Harrison,http://www.pnas.org/content/107/45/19362.full.pdf,10.1073/pnas.1006823107,Yes,Rachael 22,yes,climate change effects,past,TRUE,TRUE,"various start dates 1936, 1990",2010,multiple sources,TRUE,regional,,Rachael,22
+258,258,Prahlada,2010,PNAS,Norby,http://www.pnas.org/content/107/45/19368.full.pdf,10.1073/pnas.1006463107,Yes,Cory 47,,,,,,,,,,,,Cory,47
+259,259,Prahlada,2010,PNAS,Grant,http://www.pnas.org/content/107/47/20156.full.pdf,10.1073/pnas.1015115107,Yes,Carrie 07,yes,weather effects,past,FALSE,TRUE,1993,1993,site data,FALSE,site,only temp measurements for one day. Field experiment - weather effects ok??,Carrie,7
+260,260,Prahlada,2010,PNAS,Williams,http://www.pnas.org/content/107/50/21289.full.pdf,10.1073/pnas.0914211107,Yes,Erin 05,yes,climate change effects,past,TRUE,TRUE,1895,2008,PRISM,FALSE,regional,,Erin,5
+261,261,Prahlada,2011,PNAS,Ellis,http://www.pnas.org/content/108/3/1070.full.pdf,10.1073/pnas.1013006108,Yes,Naia 41,,,,,,,,,,,,Naia,41
+262,262,Prahlada,2011,PNAS,Desurmont,http://www.pnas.org/content/108/17/7070.full.pdf,10.1073/pnas.1102891108,Yes,Carrie 11,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Carrie,11
+263,263,Prahlada,2011,PNAS,Melillo,http://www.pnas.org/content/108/23/9508.full.pdf,10.1073/pnas.1018189108,Yes,Naia 56,,,,,,,,,,,,Naia,56
+264,264,Prahlada,2011,PNAS,Oberle,http://www.pnas.org/content/108/14/5655.full.pdf,10.1073/pnas.1012302108,Yes,Rachael 39,,,,,,,,,,,,Rachael,39
+265,265,Prahlada,2011,PNAS,Mueller,http://www.pnas.org/content/108/10/4053.full.pdf,10.1073/pnas.1015806108,Yes,Rachael 32,,,,,,,,,,,,Rachael,32
+266,266,Prahlada,2011,PNAS,Ramsey,http://www.pnas.org/content/108/17/7096.full.pdf,10.1073/pnas.1016631108,Yes,Naia 30,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate mentioned,Naia,30
+597,267,Prahlada,2011,PNAS,,,,No,Cory 50,,,,,,,,,,,,Cory,50
+598,268,Prahlada,2011,PNAS,,,,No,Matt 57,,,,,,,,,,,,Matt,57
+599,269,Prahlada,2011,PNAS,,,,No,Meagan 18,,,,,,,,,,,,Meagan,18
+600,270,Prahlada,2011,PNAS,,,,No,Naia 54,,,,,,,,,,,,Naia,54
+267,271,Cory,2000,Ecology,Knops,http://dx.doi.org/10.1890/0012-9658(2000)081[0088:DOSNAC]2.0.CO;2,,Yes,AndrewW 26,,,,,,,,,,,,AndrewW,26
+268,272,Cory,2000,Ecology,McShea,http://dx.doi.org/10.1890/0012-9658(2000)081[0228:TIOACO]2.0.CO;2,,Yes,Cory 43,,,,,,,,,,,,Cory,43
+269,273,Cory,2000,Ecology,Costanzo,http://dx.doi.org/10.1890/0012-9658(2000)081[0346:INISCC]2.0.CO;2,,Yes,Cory 52,,,,,,,,,,,,Cory,52
+270,274,Cory,2000,Ecology,Blumenshine,http://dx.doi.org/10.1890/0012-9658(2000)081[0374:GOFPAB]2.0.CO;2,,Yes,AndrewT 05,no,,,,,,,,,,aquatic,AndrewT,5
+271,275,Cory,2000,Ecology,Connell,http://dx.doi.org/10.1890/0012-9658(2000)081[0568:SDOTTY]2.0.CO;2,,Yes,AndrewT 24,yes,climate change effects,inconsistent,TRUE,TRUE,1968,1998,station data,FALSE,site,32 year study but not focused on climate change effects per se. Refers to rainfall average over 'past 100 years' and air temperature for 1968 to 1998,AndrewT,24
+272,276,Cory,2000,Ecology,Herwitz,http://dx.doi.org/10.1890/0012-9658(2000)081[0585:LTSACA]2.0.CO;2,,Yes,AndrewT 37,,,,,,,,,,,,AndrewT,37
+273,277,Cory,2000,Ecology,Pennings,http://dx.doi.org/10.1890/0012-9658(2000)081[0709:TAOCIU]2.0.CO;2,,Yes,AndrewT 44,,,,,,,,,,,,AndrewT,44
+274,278,Cory,2000,Ecology,McLachlan,http://dx.doi.org/10.1890/0012-9658(2000)081[0717:ATTLSS]2.0.CO;2,,Yes,Erin 09,yes,not temporal,present,TRUE,TRUE,NA,NA,not_specified,FALSE,site,Anthropogenic disturbance paper. Only refernece to climate is an approximate measure of rain in site description,Erin,9
+275,279,Cory,2000,Ecology,SChlosser,http://dx.doi.org/10.1890/0012-9658(2000)081[1046:CVASSI]2.0.CO;2,,Yes,Matt 03,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,aquatic,Matt,3
+276,280,Cory,2000,Ecology,Persson,http://dx.doi.org/10.1890/0012-9658(2000)081[1058:CACIEP]2.0.CO;2,,Yes,Matt 05,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,aquatic,Matt,5
+277,281,Cory,2000,Ecology,Cater,http://dx.doi.org/10.1890/0012-9658(2000)081[1086:DEOCOM]2.0.CO;2,,Yes,Matt 35,yes,not temporal,past,TRUE,TRUE,1988,1997,multiple sources,TRUE,site,,Matt,35
+278,282,Cory,2000,Ecology,Garten,http://dx.doi.org/10.1890/0012-9658(2000)081[1108:CCOFSC]2.0.CO;2,,Yes,Matt 49,,,,,,,,,,,,Matt,49
+279,283,Cory,2000,Ecology,Hansen,http://dx.doi.org/10.1890/0012-9658(2000)081[1120:EOHCAC]2.0.CO;2,,Yes,Naia 19,yes,not temporal,present,TRUE,FALSE,NA,NA,not_specified,TRUE,site,mentions mean temp and precip in present tense in site description,Naia,19
+280,284,Cory,2000,Ecology,Grosholz,http://dx.doi.org/10.1890/0012-9658(2000)081[1120:EOHCAC]2.0.CO;2,,Yes,Naia 50,,,,,,,,,,,,Naia,50
+281,285,Cory,2000,Ecology,Bradshaw,http://dx.doi.org/10.1890/0012-9658(2000)081[1262:ATTTCO]2.0.CO;2,,Yes,Naia 51,,,,,,,,,,,,Naia,51
+282,286,Cory,2000,Ecology,Gebauer,http://dx.doi.org/10.1890/0012-9658(2000)081[1415:WANUPF]2.0.CO;2,,Yes,Naia 53,,,,,,,,,,,,Naia,53
+283,287,Cory,2000,Ecology,Egerton,http://dx.doi.org/10.1890/0012-9658(2000)081[1437:FOSERI]2.0.CO;2,,Yes,Prahlad 09,,,,,,,,,,,,Prahlad,9
+284,288,Cory,2000,Ecology,Niklasson,http://dx.doi.org/10.1890/0012-9658(2000)081[1484:NASOFL]2.0.CO;2,,Yes,Prahlad 37,,,,,,,,,,,,Prahlad,37
+285,289,Cory,2000,Ecology,Bergeron,http://dx.doi.org/10.1890/0012-9658(2000)081[1500:SASDIT]2.0.CO;2,,Yes,Prahlad 38,,,,,,,,,,,,Prahlad,38
+286,290,Cory,2000,Ecology,Tielborger,http://dx.doi.org/10.1890/0012-9658(2000)081[1544:TEVTTB]2.0.CO;2,,Yes,Prahlad 56,,,,,,,,,,,,Prahlad,56
+287,291,Cory,1980,Nature,Calkins,http://www.nature.com/nature/journal/v283/n5747/abs/283563a0.html,doi:10.1038/283563a0,Yes,AndrewW 19,,,,,,,,,,,,AndrewW,19
+288,292,Cory,1980,Nature,Khayal,"nature/journal/v285/n5759/abs/,DanaInfo=www.nature.com+285033a0.html",doi:10.1038/285033a0,Yes,AndrewW 39,,,,,,,,,,,,AndrewW,39
+289,293,Cory,1980,Nature,Gascoyne,"nature/journal/v285/n5765/pdf/,DanaInfo=www.nature.com+285474a0.pdf",doi:10.1038/285474a0,Yes,Carrie 18,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Carrie,18
+290,294,Cory,1980,Nature,Chappell,"nature/journal/v286/n5770/pdf/,DanaInfo=www.nature.com+286249a0.pdf",doi:10.1038/286249a0,Yes,Carrie 23,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,marine,Carrie,23
+291,295,Cory,1980,Nature,Garfinkel,"nature/journal/v286/n5776/pdf/,DanaInfo=www.nature.com+286872a0.pdf",doi:10.1038/286872a0,Yes,Carrie 38,yes,weather effects,unclear,FALSE,TRUE,1906,1930,station data,FALSE,site,"""Instrumental records used for calibration"" but doesn't give a tense (see pg 873)",Carrie,38
+292,296,Cory,1980,Nature,Lindsay,"nature/journal/v287/n5778/pdf/,DanaInfo=www.nature.com+287135a0.pdf",doi:10.1038/287135a0,Yes,Cory 08,,,,,,,,,,,,Cory,8
+293,297,Cory,1980,Nature,Mazany,"nature/journal/v287/n5781/pdf/,DanaInfo=www.nature.com+287432a0.pdf",doi:10.1038/287432a0,Yes,Cory 09,,,,,,,,,,,,Cory,9
+294,298,Cory,1980,Nature,Jillson,"nature/journal/v288/n5792/pdf/,DanaInfo=www.nature.com+288699a0.pdf",doi:10.1038/288699a0,Yes,Cory 27,,,,,,,,,,,,Cory,27
+295,299,Cory,1980,Nature,,,,,AndrewT 23,,,,,,,,,,,,AndrewT,23
+296,300,Cory,1980,Nature,,,,"
+",Erin 06,,,,,,,,,,,,Erin,6
+297,301,Cory,1980,Nature,,,,,Erin 55,,,,,,,,,,,,Erin,55
+298,302,Cory,1980,Nature,,,,,Matt 08,,,,,,,,,,,,Matt,8
+299,303,Cory,1980,Nature,,,,,Matt 29,,,,,,,,,,,,Matt,29
+300,304,Cory,1980,Nature,,,,,Matt 53,,,,,,,,,,,,Matt,53
+301,305,Cory,1980,Nature,,,,,Matt 54,,,,,,,,,,,,Matt,54
+302,306,Cory,1980,Nature,,,,,Meagan 33,,,,,,,,,,,,Meagan,33
+303,307,Cory,1980,Nature,,,,,Meagan 55,,,,,,,,,,,,Meagan,55
+304,308,Cory,1980,Nature,,,,,Rachael 04,n/a,,,,,,,,,,,Rachael,4
+305,309,Cory,1980,Nature,,,,,Rachael 19,n/a,,,,,,,,,,,Rachael,19
+306,310,Cory,1980,Nature,,,,,Rachael 57,,,,,,,,,,,,Rachael,57
+307,311,Matt,1990,Nature,Overpeck,http://www.nature.com/nature/journal/v343/n6253/pdf/343051a0.pdf,10.1038/343051a0,Yes,AndrewW 04,,,,,,,,,,,,AndrewW,4
+308,312,Matt,1990,Nature,Vanni,http://www.nature.com/nature/journal/v344/n6264/pdf/344333a0.pdf,10.1038/344333a0,Yes,AndrewW 09,,,,,,,,,,,,AndrewW,9
+309,313,Matt,1990,Nature,Woodroffe,http://www.nature.com/nature/journal/v344/n6266/pdf/344531a0.pdf,10.1038/344531a0,Yes,AndrewW 11,,,,,,,,,,,,AndrewW,11
+310,314,Matt,1990,Nature,Highsmith,http://www.nature.com/nature/journal/v344/n6269/pdf/344862a0.pdf,10.1038/344862a0,Yes,Carrie 04,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Marine (but wouldbe good for analysis; ""water temperatures ranging annually... (unpublished obsv)."" lol",Carrie,4
+311,315,Matt,1990,Nature,Paladino,http://www.nature.com/nature/journal/v344/n6269/pdf/344858a0.pdf,10.1038/344858a0,Yes,Carrie 06,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Carrie,6
+312,316,Matt,1990,Nature,Adams,http://www.nature.com/nature/journal/v345/n6272/pdf/345219a0.pdf,10.1038/345219a0,Yes,Carrie 32,yes,climate change effects,past,TRUE,TRUE,1951,1980,station data,FALSE,continental,,Carrie,32
+313,317,Matt,1990,Nature,McNaughton,http://www.nature.com/nature/journal/v345/n6276/pdf/345613a0.pdf,10.1038/345613a0,Yes,Cory 06,,,,,,,,,,,,Cory,6
+314,318,Matt,1990,Nature,Nelson,http://www.nature.com/nature/journal/v345/n6277/pdf/345714a0.pdf,10.1038/345714a0,Yes,AndrewT 48,,,,,,,,,,,,AndrewT,48
+315,319,Matt,1990,Nature,Spiller,http://www.nature.com/nature/journal/v347/n6292/pdf/347469a0.pdf,10.1038/347469a0,Yes,Erin 49,,,,,,,,,,,,Erin,49
+316,320,Matt,1990,Nature,Rabenold,http://www.nature.com/nature/journal/v348/n6301/pdf/348538a0.pdf,10.1038/348538a0,Yes,Erin 50,,,,,,,,,,,,Erin,50
+317,321,Matt,1990,Nature,Pruett-Jones,http://www.nature.com/nature/journal/v348/n6301/pdf/348541a0.pdf,10.1038/348541a0,Yes,Matt 24,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,24
+318,322,Matt,1991,Nature,Weiss,http://www.nature.com/nature/journal/v349/n6311/pdf/349665a0.pdf,10.1038/349665a0,Yes,Meagan 31,,,,,,,,,,,,Meagan,31
+319,323,Matt,1991,Nature,Dawson,http://www.nature.com/nature/journal/v350/n6316/pdf/350335a0.pdf,10.1038/350335a0,Yes,Naia 24,yes,not temporal,present,TRUE,FALSE,NA,NA,not_specified,TRUE,site,"no numbers given, but regional climate described in present tense",Naia,24
+320,324,Matt,1991,Nature,Priede,http://www.nature.com/nature/journal/v351/n6328/pdf/351647a0.pdf,10.1038/351647a0,Yes,Naia 35,,,,,,,,,,,,Naia,35
+321,325,Matt,1991,Nature,Malhotra,http://www.nature.com/nature/journal/v353/n6342/pdf/353347a0.pdf,10.1038/353347a0,Yes,Prahlad 01,,,,,,,,,,,,Prahlad,1
+322,326,Matt,1992,Nature,Meyer,http://www.nature.com/nature/journal/v357/n6374/pdf/357147a0.pdf,10.1038/357147a0,Yes,Prahlad 28,,,,,,,,,,,,Prahlad,28
+323,327,Matt,1992,Nature,Wehner,http://www.nature.com/nature/journal/v357/n6379/pdf/357586a0.pdf,10.1038/357586a0,Yes,Prahlad 43,,,,,,,,,,,,Prahlad,43
+324,328,Matt,1992,Nature,Townsend,http://www.nature.com/nature/journal/v360/n6399/pdf/360059a0.pdf,10.1038/360059a0,Yes,Rachael 06,no,,,,,,,,,,Marine: phytoplankton study,Rachael,6
+325,329,Matt,1992,Nature,Ancel,http://www.nature.com/nature/journal/v360/n6402/pdf/360336a0.pdf,10.1038/360336a0,Yes,Rachael 25,no,,,,,,,,,,"Sea ice and daylength data (past tense), no temp or precip data given",Rachael,25
+326,330,Matt,1993,Nature,Hendrick,http://www.nature.com/nature/journal/v361/n6407/pdf/361059a0.pdf,10.1038/361059a0,Yes,Rachael 36,,,,,,,,,,,,Rachael,36
+327,331,Matt,2010,Diversity_and_Distributions,Beatty,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2009.00616.x/epdf,10.1111/j.1472-4642.2009.00616.x,Yes,AndrewW 42,,,,,,,,,,,,AndrewW,42
+328,332,Matt,2010,Diversity_and_Distributions,Catford,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2009.00631.x/epdf,10.1111/j.1472-4642.2009.00631.x,Yes,Carrie 03,yes,NA,present,TRUE,NA,NA,NA,not_specified,TRUE,continental,"Australia; rainfall but not temp, no dates given, data from Bureau of meteorology. Not sure about scope, just site data re. invasive spp/",Carrie,3
+329,333,Matt,2010,Diversity_and_Distributions,Ellis,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2009.00624.x/epdf,10.1111/j.1472-4642.2009.00624.x,Yes,Carrie 53,,,,,,,,,,,,Carrie,53
+330,334,Matt,2010,Diversity_and_Distributions,Penman,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2009.00619.x/epdf,10.1111/j.1472-4642.2009.00619.x,Yes,Cory 22,,,,,,,,,,,,Cory,22
+331,335,Matt,2010,Diversity_and_Distributions,Tang,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2009.00628.x/epdf,10.1111/j.1472-4642.2009.00628.x,Yes,AndrewT 09,yes,climate change effects,inconsistent,FALSE,TRUE,1961,1990,name_of_GCM,TRUE,regional,,AndrewT,9
+332,336,Matt,2010,Diversity_and_Distributions,Yates,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2009.00623.x/epdf,10.1111/j.1472-4642.2009.00623.x,Yes,AndrewT 13,yes,climate change effects,inconsistent,TRUE,TRUE,1961,1990,station data,TRUE,regional,Various climate variables considered. Three scenarios considered with GCM parameters and assumptions described,AndrewT,13
+333,337,Matt,2010,Diversity_and_Distributions,Compton,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2010.00644.x/epdf,10.1111/j.1472-4642.2010.00644.x,Yes,AndrewT 25,no,,,,,,,,,,marine - crab ,AndrewT,25
+334,338,Matt,2010,Diversity_and_Distributions,Matthews,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2010.00638.x/epdf,10.1111/j.1472-4642.2010.00638.x,Yes,AndrewT 32,,,,,,,,,,,,AndrewT,32
+335,339,Matt,2010,Diversity_and_Distributions,Kraft,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2010.00640.x/epdf,10.1111/j.1472-4642.2010.00640.x,Yes,AndrewT 39,,,,,,,,,,,,AndrewT,39
+336,340,Matt,2010,Diversity_and_Distributions,Thomas,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2010.00642.x/epdf,10.1111/j.1472-4642.2010.00642.x,Yes,AndrewT 54,,,,,,,,,,,,AndrewT,54
+337,341,Matt,2010,Diversity_and_Distributions,Kreyling,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2010.00675.x/epdf,10.1111/j.1472-4642.2010.00675.x,Yes,Erin 01,yes,climate change effects,present,TRUE,TRUE,1972,2005,station data,FALSE,regional,"refer to climate in present tense but give multiple date ranges. No citation, but give the name of the meteorological agency that provides station data",Erin,1
+338,342,Matt,2010,Diversity_and_Distributions,Lake,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2010.00685.x/epdf,10.1111/j.1472-4642.2010.00685.x,Yes,Meagan 24,,,,,,,,,,,,Meagan,24
+339,343,Matt,2010,Diversity_and_Distributions,Chen,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2010.00679.x/epdf,10.1111/j.1472-4642.2010.00679.x,Yes,Meagan 39,,,,,,,,,,,,Meagan,39
+340,344,Matt,2010,Diversity_and_Distributions,Duckworth,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2010.00683.x/epdf,10.1111/j.1472-4642.2010.00683.x,Yes,Naia 14,no,climate change effects,inconsistent,FALSE,FALSE,NA,NA,not_specified,TRUE,regional,"mentions that climate is changing, but uses static soil moisture layer (implicit present) to compare past and present species range",Naia,14
+341,345,Matt,2010,Diversity_and_Distributions,Martinez-Morales,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2010.00691.x/epdf,10.1111/j.1472-4642.2010.00691.x,Yes,Prahlad 26,,,,,,,,,,,,Prahlad,26
+342,346,Matt,2010,Diversity_and_Distributions,Meffin,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2010.00684.x/epdf,10.1111/j.1472-4642.2010.00684.x,Yes,Prahlad 48,,,,,,,,,,,,Prahlad,48
+343,347,Matt,2010,Diversity_and_Distributions,Miller,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2010.00690.x/epdf,10.1111/j.1472-4642.2010.00690.x,Yes,Rachael 05,no,not temporal,,,,,,,,,no climate data,Rachael,5
+344,348,Matt,2010,Diversity_and_Distributions,Wang,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2010.00682.x/epdf,10.1111/j.1472-4642.2010.00682.x,Yes,Rachael 09,yes,not temporal,present,FALSE,,,,not_specified,FALSE,site,good present tense site description example,Rachael,9
+345,349,Matt,2010,Diversity_and_Distributions,Cadotte,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2010.00700.x/epdf,10.1111/j.1472-4642.2010.00700.x,Yes,Rachael 55,,,,,,,,,,,,Rachael,55
+346,350,Matt,2010,Diversity_and_Distributions,Murakami,http://onlinelibrary.wiley.com/doi/10.1111/j.1472-4642.2010.00698.x/epdf,10.1111/j.1472-4642.2010.00698.x,Yes,Rachael 56,,,,,,,,,,,,Rachael,56
+347,351,Carrie,1990,Ecology,Hughes,http://www.jstor.org/stable/1940242,10.2307/1940242,Yes,AndrewW 23,,,,,,,,,,,,AndrewW,23
+348,352,Carrie,1990,Ecology,Nicols,http://www.jstor.org/stable/1940243,10.2307/1940243,Yes,AndrewW 29,,,,,,,,,,,,AndrewW,29
+349,353,Carrie,1990,Ecology,Rose,http://www.jstor.org/stable/1940245,10.2307/1940245,Yes,AndrewW 52,,,,,,,,,,,,AndrewW,52
+350,354,Carrie,1990,Ecology,McPeek,http://www.jstor.org/stable/1940249,10.2307/1940249,Yes,Carrie 27,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Carrie,27
+351,355,Carrie,1990,Ecology,Fritz,http://www.jstor.org/stable/1940250,10.2307/1940250,Yes,Carrie 33,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Carrie,33
+352,356,Carrie,1990,Ecology,Waser,http://www.jstor.org/stable/1940252,10.2307/1940252,Yes,Carrie 37,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Carrie,37
+353,357,Carrie,1990,Ecology,Hughes,http://www.jstor.org/stable/1940254,10.2307/1940254,Yes,Cory 05,,,,,,,,,,,,Cory,5
+354,358,Carrie,1990,Ecology,Du Toit,http://www.jstor.org/stable/1940255,10.2307/1940255,Yes,Cory 21,,,,,,,,,,,,Cory,21
+355,359,Carrie,1990,Ecology,Brandner,http://www.jstor.org/stable/1940256,10.2307/1940256,Yes,Cory 49,,,,,,,,,,,,Cory,49
+356,360,Carrie,1990,Ecology,Denslow,http://www.jstor.org/stable/1940257,10.2307/1940257,Yes,AndrewT 06,yes,not temporal,present,TRUE,FALSE,NA,NA,not_specified,FALSE,site,only climate reference is to average rainfall and length of dry season without mention of years used to calculate,AndrewT,6
+357,361,Carrie,1990,Ecology,Day,http://www.jstor.org/stable/1940258,10.2307/1940258,Yes,AndrewT 07,yes,not temporal,inconsistent,TRUE,TRUE,1986,1987,not_specified,FALSE,site,dates provided for study period but not for period when area average was calculated,AndrewT,7
+358,362,Carrie,1990,Ecology,Phillips,http://www.jstor.org/stable/1940260,10.2307/1940260,Yes,AndrewT 19,yes,not temporal,inconsistent,TRUE,TRUE,Jun-83,Sep-83,site data,FALSE,site,precipitation range (175-200cm/yr) provided for site without reference to years or min/max of range. Experiment involved taking soil and air temperatures in 1983('second growing season') over 4 months,AndrewT,19
+359,363,Carrie,1990,Ecology,Goldberg,http://www.jstor.org/stable/1940261,10.2307/1940261,Yes,Erin 18,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Erin,18
+360,364,Carrie,1990,Ecology,Carson,http://www.jstor.org/stable/1940262,10.2307/1940262,Yes,Erin 26,yes,not temporal,inconsistent,TRUE,TRUE,1951,1980,multiple sources,TRUE,site,use present tense describing climate in site description and include citation. In results use past tense and compare rainfall measured at the site during study years with averages collected 1951-1980 from nearby weather station.  ,Erin,26
+361,365,Carrie,1990,Ecology,Garten,http://www.jstor.org/stable/1940263,10.2307/1940263,Yes,Matt 31,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,31
+362,366,Carrie,1990,Ecology,Ackerman,http://www.jstor.org/stable/1940265,10.2307/1940265,Yes,Meagan 23,,,,,,,,,,,,Meagan,23
+363,367,Carrie,1990,Ecology,Findlay,http://www.jstor.org/stable/1940268,10.2307/1940268,Yes,Prahlad 42,,,,,,,,,,,,Prahlad,42
+364,368,Carrie,1990,Ecology,Scott,http://www.jstor.org/stable/1940269,10.2307/1940269,Yes,Prahlad 52,,,,,,,,,,,,Prahlad,52
+365,369,Carrie,1990,Ecology,Adolph,http://www.jstor.org/stable/1940271,10.2307/1940271,Yes,Prahlad 53,,,,,,,,,,,,Prahlad,53
+366,370,Carrie,1990,Ecology,Oates,http://www.jstor.org/stable/1940272,10.2307/1940272,Yes,Rachael 03,yes,not temporal,past,TRUE,TRUE,1949,1986,regional,TRUE,regional,"Very thourough coverage of site climate (for a non-temporal paper), dated well and climate during years of study are graphed",Rachael,3
+367,371,Carrie,1990,Ecology,Schaffner,http://www.jstor.org/stable/1940275,10.2307/1940275,Yes,-,,,,,,,,,,,,-,
+368,372,Carrie,1990,Ecology,Uhl,http://www.jstor.org/stable/1940299,10.2307/1940299,Yes,-,,,,,,,,,,,,-,
+369,373,Carrie,1990,Ecology,Foster,http://www.jstor.org/stable/1940300,10.2307/1940300,Yes,-,,,,,,,,,,,,-,
+370,374,Carrie,1990,Ecology,Turner,http://www.jstor.org/stable/1940301,10.2307/1940301,Yes,-,,,,,,,,,,,,-,
+371,375,Carrie,1990,Ecology,Huenneke,http://www.jstor.org/stable/1940302 .,10.2307/1940302,Yes,-,,,,,,,,,,,,-,
+372,376,Carrie,1990,Ecology,Freedman,http://www.jstor.org/stable/1940303,10.2307/1940303,Yes,-,,,,,,,,,,,,-,
+373,377,Carrie,1990,Ecology,Schupp,http://www.jstor.org/stable/1940304,10.2307/1940304,Yes,-,,,,,,,,,,,,-,
+374,378,Carrie,1990,Ecology,Allison,http://www.jstor.org/stable/1940305,10.2307/1940305,Yes,-,,,,,,,,,,,,-,
+375,379,Carrie,1990,Ecology,Schmid,http://www.jstor.org/stable/1940306,10.2307/1940306,Yes,-,,,,,,,,,,,,-,
+376,380,Carrie,1990,Ecology,Young,http://www.jstor.org/stable/1940307,10.2307/1940307,Yes,-,,,,,,,,,,,,-,
+377,381,Carrie,2010,GCB,Pearce-Higgins,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01883.x/abstract,10.1111/j.1365-2486.2009.01883.x,Yes,AndrewW 10,,,,,,,,,,,,AndrewW,10
+378,382,Carrie,2010,GCB,Vailente,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01922.x/abstract,10.1111/j.1365-2486.2009.01922.x,Yes,AndrewW 31,,,,,,,,,,,,AndrewW,31
+379,383,Carrie,2010,GCB,Fodrie,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01889.x/abstract,10.1111/j.1365-2486.2009.01889.x,Yes,AndrewW 40,,,,,,,,,,,,AndrewW,40
+380,384,Carrie,2010,GCB,Mitchell,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01964.x/abstract,10.1111/j.1365-2486.2009.01964.x,Yes,AndrewW 51,,,,,,,,,,,,AndrewW,51
+381,385,Carrie,2010,GCB,Musolin,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01914.x/abstract,10.1111/j.1365-2486.2009.01914.x,Yes,Carrie 45,,,,,,,,,,,,Carrie,45
+382,386,Carrie,2010,GCB,Clark,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01983.x/abstract,10.1111/j.1365-2486.2009.01983.x,Yes,AndrewT 04,yes,weather effects,inconsistent,TRUE,TRUE,1930,2004,multiple sources,TRUE,regional,"present tense for general description of climate (1930-2004 data range), past tense for observations / measurements during study period (2005-2007). Multiple collection methods for study data. Long term data is from one source (meteorological data)",AndrewT,4
+383,387,Carrie,2010,GCB,Klapwijk,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01918.x/abstract,10.1111/j.1365-2486.2009.01918.x,Yes,AndrewT 12,yes,climate change effects,past,FALSE,TRUE,3/6/2015,6/6/2015,site data,FALSE,site,"Controlled field experiment. Study experiment readings (mean, max, min temperatures) vs long term data (from unnamed weather station)",AndrewT,12
+384,388,Carrie,2010,GCB,Stuart-Smith,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01955.x/abstract,10.1111/j.1365-2486.2009.01955.x,Yes,AndrewT 18,no,,,,,,,,,,aquatic,AndrewT,18
+385,389,Carrie,2010,GCB,Niu,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01894.x/abstract,10.1111/j.1365-2486.2009.01894.x,Yes,Erin 48,,,,,,,,,,,,Erin,48
+386,390,Carrie,2010,GCB,Jenkins,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01954.x/abstract,10.1111/j.1365-2486.2009.01954.x,Yes,Matt 01,yes,not temporal,present,TRUE,FALSE,NA,NA,not_specified,FALSE,site,,Matt,1
+387,391,Carrie,2010,GCB,Goldberg,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.02015.x/abstract,10.1111/j.1365-2486.2009.02015.x,Yes,Matt 25,yes,not temporal,present,TRUE,FALSE,NA,NA,NA,FALSE,site,,Matt,25
+388,392,Carrie,2010,GCB,Li,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01941.x/abstract,10.1111/j.1365-2486.2009.01941.x,Yes,Matt 27,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,aquatic,Matt,27
+389,393,Carrie,2010,GCB,Noormets,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01928.x/abstract,10.1111/j.1365-2486.2009.01928.x,Yes,Meagan 09,,,,,,,,,,,,Meagan,9
+390,394,Carrie,2010,GCB,Ow,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01892.x/abstract,10.1111/j.1365-2486.2009.01892.x,Yes,Meagan 20,,,,,,,,,,,,Meagan,20
+391,395,Carrie,2010,GCB,Eastburn,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01978.x/abstract,10.1111/j.1365-2486.2009.01978.x,Yes,Meagan 26,,,,,,,,,,,,Meagan,26
+392,396,Carrie,2010,GCB,Murphy,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01933.x/abstract,10.1111/j.1365-2486.2009.01933.x,Yes,Meagan 45,,,,,,,,,,,,Meagan,45
+393,397,Carrie,2010,GCB,Dupre,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01982.x/abstract,10.1111/j.1365-2486.2009.01982.x,Yes,Naia 29,no,not temporal,implicit present,FALSE,FALSE,NA,NA,NA,NA,continental,use latlong as surrogate for climate in a study of 70 years of change- implicit present ok?,Naia,29
+394,398,Carrie,2010,GCB,Bail,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01950.x/abstract,10.1111/j.1365-2486.2009.01950.x,Yes,Naia 39,,,,,,,,,,,,Naia,39
+395,399,Carrie,2010,GCB,Doi,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01993.x/abstract,10.1111/j.1365-2486.2009.01993.x,Yes,Rachael 15,,,,,,,,,,,,Rachael,15
+396,400,Carrie,2010,GCB,van Grunsven,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01996.x/abstract,10.1111/j.1365-2486.2009.01996.x,Yes,Rachael 47,,,,,,,,,,,,Rachael,47
+397,401,Carrie,2010,GCB,Esper,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01913.x/abstract,10.1111/j.1365-2486.2009.01913.x,Yes,-,,,,,,,,,,,,-,
+398,402,Carrie,2010,GCB,McDowell,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01994.x/abstract,10.1111/j.1365-2486.2009.01994.x,Yes,-,,,,,,,,,,,,-,
+399,403,Carrie,2010,GCB,Anderson,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01975.x/abstract,10.1111/j.1365-2486.2009.01975.x,Yes,-,,,,,,,,,,,,-,
+400,404,Carrie,2010,GCB,Marhan,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01949.x/abstract,10.1111/j.1365-2486.2009.01949.x,Yes,-,,,,,,,,,,,,-,
+401,405,Carrie,2010,GCB,Brommer,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.02012.x/abstract,10.1111/j.1365-2486.2009.02012.x,Yes,-,,,,,,,,,,,,-,
+402,406,Carrie,2010,GCB,Wittmer,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.02033.x/abstract,10.1111/j.1365-2486.2009.02033.x,Yes,-,,,,,,,,,,,,-,
+403,407,Carrie,2010,GCB,Huang,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01976.x/abstract,10.1111/j.1365-2486.2009.01976.x,Yes,-,,,,,,,,,,,,-,
+404,408,Carrie,2010,GCB,Clark,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.02004.x/abstract,10.1111/j.1365-2486.2009.02004.x,Yes,-,,,,,,,,,,,,-,
+405,409,Carrie,2010,GCB,Hu,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01967.x/abstract,10.1111/j.1365-2486.2009.01967.x,Yes,-,,,,,,,,,,,,-,
+406,410,Carrie,2010,GCB,Minamikawa,http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01931.x/abstract,10.1111/j.1365-2486.2009.01931.x,Yes,-,,,,,,,,,,,,-,
+407,411,Carrie,2000,Diversity_and_Distributions,Edinger,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2000.00076.x/abstract,10.1046/j.1472-4642.2000.00076.x,Yes,AndrewW 13,,,,,,,,,,,,AndrewW,13
+408,412,Carrie,2000,Diversity_and_Distributions,Harrison,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2000.00082.x/abstract,10.1046/j.1472-4642.2000.00082.x,Yes,AndrewW 14,,,,,,,,,,,,AndrewW,14
+409,413,Carrie,2000,Diversity_and_Distributions,Lambrinos,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2000.00086.x/abstract,10.1046/j.1472-4642.2000.00086.x,Yes,AndrewW 20,,,,,,,,,,,,AndrewW,20
+410,414,Carrie,2000,Diversity_and_Distributions,Mason,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2000.00084.x/abstract,10.1046/j.1472-4642.2000.00084.x,Yes,AndrewW 35,,,,,,,,,,,,AndrewW,35
+411,415,Carrie,2000,Diversity_and_Distributions,Milne,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2000.00089.x/abstract,10.1046/j.1472-4642.2000.00089.x,Yes,Carrie 05,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Carrie,5
+412,416,Carrie,2000,Diversity_and_Distributions,Muthuramkumar,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2000.00057.x/abstract,10.1046/j.1472-4642.2000.00057.x,Yes,Cory 18,,,,,,,,,,,,Cory,18
+413,417,Carrie,2000,Diversity_and_Distributions,Vlok,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2000.00087.x/abstract,10.1046/j.1472-4642.2000.00087.x,Yes,AndrewT 27,yes,not temporal,present,TRUE,FALSE,NA,NA,not_specified,TRUE,site,"Paper refers to an earlier paper where 'general characteristics of climate, soils, vegetation have been described'. 2nd reference also provided but unclear whether for climate averages on rainfall and temperatures or the recorded max and min temperature",AndrewT,27
+414,418,Carrie,2001,Diversity_and_Distributions,Barbosa,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2001.00104.x/abstract,10.1046/j.1472-4642.2001.00104.x,Yes,AndrewT 33,,,,,,,,,,,,AndrewT,33
+415,419,Carrie,2001,Diversity_and_Distributions,Katz,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2001.00093.x/abstract,10.1046/j.1472-4642.2001.00093.x,Yes,Erin 12,yes,not temporal,present,TRUE,FALSE,NA,NA,not_specified,TRUE,site,"Provide name of Center (Colorado Climte Center, unpublished data) but do not explicitly say weather station data, or from which station data are from",Erin,12
+416,420,Carrie,2001,Diversity_and_Distributions,Kessler,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2001.00097.x/abstract,10.1046/j.1472-4642.2001.00097.x,Yes,Erin 23,no,not temporal,unclear,TRUE,FALSE,NA,NA,multiple sources,TRUE,site,"Authors provide graphs showing climate variables x elevation (with citations for source in caption), but otherwise do not reference specific climate/weather measurements in text of MS. ",Erin,23
+417,421,Carrie,2001,Diversity_and_Distributions,Lobo,http://onlinelibrary.wiley.com/doi/10.1046/j.1366-9516.2001.00122.x/abstract,10.1046/j.1366-9516.2001.00122.x,Yes,Erin 41,,,,,,,,,,,,Erin,41
+418,422,Carrie,2001,Diversity_and_Distributions,Sklenar,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2001.00101.x/abstract,10.1046/j.1472-4642.2001.00101.x,Yes,Erin 51,,,,,,,,,,,,Erin,51
+419,423,Carrie,2002,Diversity_and_Distributions,Farji-Brener,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2002.00133.x/abstract,10.1046/j.1472-4642.2002.00133.x,Yes,Matt 46,yes,not temporal,present,TRUE,FALSE,NA,NA,NA,FALSE,site,,Matt,46
+420,424,Carrie,2002,Diversity_and_Distributions,Heidinga,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2002.00154.x/abstract,10.1046/j.1472-4642.2002.00154.x,Yes,Meagan 21,,,,,,,,,,,,Meagan,21
+421,425,Carrie,2002,Diversity_and_Distributions,Kiviniemi,http://onlinelibrary.wiley.com/doi/10.1046/j.1366-9516.2001.00125.x/abstract,10.1046/j.1366-9516.2001.00125.x,Yes,Meagan 56,,,,,,,,,,,,Meagan,56
+422,426,Carrie,2002,Diversity_and_Distributions,Muster,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2002.00131.x/abstract,10.1046/j.1472-4642.2002.00131.x,Yes,Naia 02,yes,not temporal,present,TRUE,NA,NA,NA,atlas,TRUE,regional,author claims there is no climate difference across 200km sites or elevation… Cites atlas,Naia,2
+423,427,Carrie,2002,Diversity_and_Distributions,Olesen,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2002.00148.x/abstract,10.1046/j.1472-4642.2002.00148.x,Yes,Naia 09,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate mentioned,Naia,9
+424,428,Carrie,2002,Diversity_and_Distributions,Parody,http://onlinelibrary.wiley.com/doi/10.1046/j.1366-9516.2001.00126.x/abstract,10.1046/j.1366-9516.2001.00126.x,Yes,Naia 18,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate mentioned,Naia,18
+425,429,Carrie,2002,Diversity_and_Distributions,Renne,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2002.00150.x/abstract,10.1046/j.1472-4642.2002.00150.x,Yes,Naia 45,,,,,,,,,,,,Naia,45
+426,430,Carrie,2002,Diversity_and_Distributions,Sax,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2002.00147.x/abstract,10.1046/j.1472-4642.2002.00147.x,Yes,Rachael 10,,,,,,,,,,,,Rachael,10
+427,431,Carrie,2002,Diversity_and_Distributions,Topp,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2002.00130.x/abstract,10.1046/j.1472-4642.2002.00130.x,Yes,-,,,,,,,,,,,,-,
+428,432,Carrie,2003,Diversity_and_Distributions,Bellingham,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2003.00162.x/abstract,10.1046/j.1472-4642.2003.00162.x,Yes,-,,,,,,,,,,,,-,
+429,433,Carrie,2003,Diversity_and_Distributions,Brehm,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2003.00023.x/abstract,10.1046/j.1472-4642.2003.00023.x,Yes,-,,,,,,,,,,,,-,
+430,434,Carrie,2003,Diversity_and_Distributions,Burke,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2003.00164.x/abstract,10.1046/j.1472-4642.2003.00164.x,Yes,-,,,,,,,,,,,,-,
+431,435,Carrie,2003,Diversity_and_Distributions,Ferrer,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2003.00039.x/abstract,10.1046/j.1472-4642.2003.00039.x,Yes,-,,,,,,,,,,,,-,
+432,436,Carrie,2003,Diversity_and_Distributions,Hunter,http://onlinelibrary.wiley.com/doi/10.1046/j.1466-822X.2003.00167.x/abstract,10.1046/j.1466-822X.2003.00167.x,Yes,-,,,,,,,,,,,,-,
+433,437,Carrie,2003,Diversity_and_Distributions,Kopelke,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2003.00037.x/abstract,10.1046/j.1472-4642.2003.00037.x,Yes,-,,,,,,,,,,,,-,
+434,438,Carrie,2003,Diversity_and_Distributions,Rodgers,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2003.00036.x/abstract,10.1046/j.1472-4642.2003.00036.x,Yes,-,,,,,,,,,,,,-,
+435,439,Carrie,2003,Diversity_and_Distributions,Rossiter,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2003.00020.x/abstract,10.1046/j.1472-4642.2003.00020.x,Yes,-,,,,,,,,,,,,-,
+436,440,Carrie,2003,Diversity_and_Distributions,Scherber,http://onlinelibrary.wiley.com/doi/10.1046/j.1472-4642.2003.00049.x/abstract,10.1046/j.1472-4642.2003.00049.x,Yes,-,,,,,,,,,,,,-,
+437,441,Carrie,2010,American_Naturalist,Oh,http://www.jstor.org/stable/10.1086/655216,10.1086/655216,Yes,AndrewW 17,,,,,,,,,,,,AndrewW,17
+438,442,Carrie,2010,American_Naturalist,Kaminski,http://www.jstor.org/stable/10.1086/655427,10.1086/655427,Yes,AndrewW 28,,,,,,,,,,,,AndrewW,28
+439,443,Carrie,2010,American_Naturalist,Crossin,ttp://www.jstor.org/stable/10.1086/655223,10.1086/655223,Yes,AndrewW 46,,,,,,,,,,,,AndrewW,46
+440,444,Carrie,2010,American_Naturalist,Gross,http://www.jstor.org/stable/10.1086/655428,10.1086/655428,Yes,Carrie 20,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Carrie,20
+441,445,Carrie,2010,American_Naturalist,Siewert,http://www.jstor.org/stable/10.1086/656271,10.1086/656271,Yes,Carrie 49,,,,,,,,,,,,Carrie,49
+442,446,Carrie,2010,American_Naturalist,Cooper,http://www.jstor.org/stable/10.1086/656491,10.1086/656491,Yes,Carrie 52,,,,,,,,,,,,Carrie,52
+443,447,Carrie,2010,American_Naturalist,Ezenwa,http://www.jstor.org/stable/10.1086/656496,10.1086/656496,Yes,Cory 10,,,,,,,,,,,,Cory,10
+444,448,Carrie,2010,American_Naturalist,Clutton-Brock,http://www.jstor.org/stable/10.1086/656492,10.1086/656492,Yes,Cory 15,,,,,,,,,,,,Cory,15
+445,449,Carrie,2010,American_Naturalist,Madin,http://www.jstor.org/stable/10.1086/657039,10.1086/657039,Yes,Cory 17,,,,,,,,,,,,Cory,17
+446,450,Carrie,2010,American_Naturalist,Ord,http://www.jstor.org/stable/10.1086/657439,10.1086/657439,Yes,Cory 35,,,,,,,,,,,,Cory,35
+447,451,Carrie,2011,American_Naturalist,Reid,http://www.jstor.org/stable/10.1086/657977,10.1086/657977,Yes,Cory 39,,,,,,,,,,,,Cory,39
+448,452,Carrie,2011,American_Naturalist,Mao,http://www.jstor.org/stable/10.1086/658905,10.1086/658905,Yes,Cory 48,,,,,,,,,,,,Cory,48
+449,453,Carrie,2011,American_Naturalist,Vickers,http://www.jstor.org/stable/10.1086/658150,10.1086/658150,Yes,Cory 54,,,,,,,,,,,,Cory,54
+450,454,Carrie,2011,American_Naturalist,Kingma,http://www.jstor.org/stable/10.1086/658989,10.1086/658989,Yes,AndrewT 55,,,,,,,,,,,,AndrewT,55
+451,455,Carrie,2011,American_Naturalist,Marinez,http://www.jstor.org/stable/10.1086/659623,10.1086/659623,Yes,Erin 04,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Erin,4
+452,456,Carrie,2011,American_Naturalist,Eilts,http://www.jstor.org/stable/10.1086/659633,10.1086/659633,Yes,Erin 21,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Erin,21
+453,457,Carrie,2011,American_Naturalist,Bowers,http://www.jstor.org/stable/10.1086/659630,10.1086/659630,Yes,Matt 41,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,41
+454,458,Carrie,2011,American_Naturalist,Westbrook,http://www.jstor.org/stable/10.1086/659963,10.1086/659963,Yes,Naia 03,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate mentioned,Naia,3
+455,459,Carrie,2011,American_Naturalist,Danner,http://www.jstor.org/stable/10.1086/660283,10.1086/660283,Yes,Prahlad 51,,,,,,,,,,,,Prahlad,51
+456,460,Carrie,2011,American_Naturalist,Baythavong,http://www.jstor.org/stable/10.1086/660281,10.1086/660281,Yes,Rachael 48,,,,,,,,,,,,Rachael,48
+457,461,Andrew,1980,Ecology,Nobel,http://www.jstor.org/stable/1937146,10.2307/1937146,Yes,AndrewW 02,yes,not temporal,present,TRUE,FALSE,NA,NA,multiple sources,TRUE,site,"acclimation via morphological changes in cacti along geographic range in reponse to frost temperatures; surface temps measured and modeled for the cacti individuals, not the system itself; lots of climate data, but all back referenced to previous studies; no climate tense reference with authors data, but authors claim annual precip tends to decrease with latitude at their sites (citing two other studies), warranting a present tense reference to climate.",AndrewW,2
+458,462,Andrew,1980,Ecology,Tobiessen,http://www.jstor.org/stable/1937150,10.2307/1937150,Yes,AndrewW 03,,,,,,,,,,,,AndrewW,3
+459,463,Andrew,1980,Ecology,DeWoskin,http://www.jstor.org/stable/1937151,10.2307/1937151,Yes,AndrewW 05,,,,,,,,,,,,AndrewW,5
+460,464,Andrew,1980,Ecology,Dueser,http://www.jstor.org/stable/1937154,10.2307/1937154,Yes,AndrewW 07,,,,,,,,,,,,AndrewW,7
+461,465,Andrew,1980,Ecology,McClure,http://www.jstor.org/stable/1937157,10.2307/1937157,Yes,Carrie 54,,,,,,,,,,,,Carrie,54
+462,466,Andrew,1980,Ecology,Ng,http://www.jstor.org/stable/1937160,10.2307/1937160,Yes,Cory 02,,,,,,,,,,,,Cory,2
+463,467,Andrew,1980,Ecology,Wittenberger,http://www.jstor.org/stable/1937164,10.2307/1937164,Yes,Cory 20,,,,,,,,,,,,Cory,20
+464,468,Andrew,1980,Ecology,Janos,http://www.jstor.org/stable/1937165,10.2307/1937165,Yes,Meagan 08,,,,,,,,,,,,Meagan,8
+465,469,Andrew,1980,Ecology,Rogers,http://www.jstor.org/stable/1937167,10.2307/1937167,Yes,Meagan 16,,,,,,,,,,,,Meagan,16
+466,470,Andrew,1980,Ecology,Hackney,http://www.jstor.org/stable/1935178,10.2307/1935178,Yes,Naia 32,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate mentioned,Naia,32
+467,471,Andrew,1980,Ecology,Coenen-Stass,http://www.jstor.org/stable/1935180,10.2307/1935180,Yes,Naia 36,,,,,,,,,,,,Naia,36
+468,472,Andrew,1980,Ecology,Nobel2,http://www.jstor.org/stable/1935182,10.2307/1935182,Yes,Naia 38,,,,,,,,,,,,Naia,38
+469,473,Andrew,1980,Ecology,Miller,http://www.jstor.org/stable/1935185,10.2307/1935185,Yes,Naia 49,,,,,,,,,,,,Naia,49
+470,474,Andrew,1980,Ecology,Gallagher,http://www.jstor.org/stable/1935189,10.2307/1935189,Yes,Prahlad 22,,,,,,,,,,,,Prahlad,22
+471,475,Andrew,1980,Ecology,Ferguson,http://www.jstor.org/stable/1935190,10.2307/1935190,Yes,Prahlad 36,,,,,,,,,,,,Prahlad,36
+472,476,Andrew,1980,Ecology,Rawlins,http://www.jstor.org/stable/1935193,10.2307/1935193,Yes,Prahlad 39,,,,,,,,,,,,Prahlad,39
+473,477,Andrew,1980,Ecology,Glass,http://www.jstor.org/stable/1935194,10.2307/1935194,Yes,Prahlad 47,,,,,,,,,,,,Prahlad,47
+474,478,Andrew,1980,Ecology,Delcourt,http://www.jstor.org/stable/1935195,10.2307/1935195,Yes,Rachael 31,,,,,,,,,,,,Rachael,31
+475,479,Andrew,1980,Ecology,Reich,http://www.jstor.org/stable/1935197,10.2307/1935197,Yes,Rachael 35,,,,,,,,,,,,Rachael,35
+476,480,Andrew,1980,Ecology,Christy,http://www.jstor.org/stable/1937406,10.2307/1937406,Yes,Rachael 50,,,,,,,,,,,,Rachael,50
+477,481,Andrew,1998,Diversity_and_Distributions,Pysek,http://www.jstor.org/stable/2999808,,Yes,AndrewW 47,yes,climate change effects,implicit present,FALSE,FALSE,NA,NA,not_specified,TRUE,regional,"Confused by this one- they describe GIS climate layers but no mention of tense or dates that the layers are derived from. Ref is from. ""Climatic characteristics were taken from Vesecky et al. (1958)."" ... ",AndrewW,47
+478,482,Andrew,1998,Diversity_and_Distributions,Cowling,http://www.jstor.org/stable/2999810,,Yes,Carrie 10,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Carrie,10
+479,483,Andrew,1998,Diversity_and_Distributions,Iverson,http://www.jstor.org/stable/2999798,10.1046/j.1472-4642.1998.00007.x,Yes,Carrie 34,yes,weather effects,implicit past,FALSE,TRUE,1941,1970,station data,TRUE,regional,"Annual avgs not mentioned in text, only in table, so implicit past ",Carrie,34
+480,484,Andrew,1998,Diversity_and_Distributions,Yom-Tov,http://www.jstor.org/stable/2999799,10.1046/j.1472-4642.1998.00012.x,Yes,Carrie 48,,,,,,,,,,,,Carrie,48
+481,485,Andrew,1998,Diversity_and_Distributions,Porembski,http://www.jstor.org/stable/2999817,10.1046/j.1365-2699.1998.00013.x,Yes,Cory 16,,,,,,,,,,,,Cory,16
+482,486,Andrew,1998,Diversity_and_Distributions,Hoekstra,http://www.jstor.org/stable/2999819,10.1046/j.1365-2699.1998.00016.x,Yes,Cory 46,,,,,,,,,,,,Cory,46
+483,487,Andrew,1998,Diversity_and_Distributions,Mistry,http://www.jstor.org/stable/2999788,10.1046/j.1472-4642.1998.00004.x,Yes,Cory 53,,,,,,,,,,,,Cory,53
+484,488,Andrew,1998,Diversity_and_Distributions,Davis,http://www.jstor.org/stable/2999789,10.1046/j.1472-4642.1998.00017.x,Yes,AndrewT 35,,,,,,,,,,,,AndrewT,35
+485,489,Andrew,1998,Diversity_and_Distributions,Milton,http://www.jstor.org/stable/2999790,10.1046/j.1472-4642.1998.00024.x,Yes,AndrewT 45,,,,,,,,,,,,AndrewT,45
+486,490,Andrew,1998,Diversity_and_Distributions,Ferreira,http://www.jstor.org/stable/2999829,,Yes,AndrewT 50,,,,,,,,,,,,AndrewT,50
+487,491,Andrew,1999,Diversity_and_Distributions,Lamont,http://www.jstor.org/stable/2673310,10.1046/j.1472-4642.1999.00032.x,Yes,AndrewT 56,,,,,,,,,,,,AndrewT,56
+488,492,Andrew,1999,Diversity_and_Distributions,Lavorel,http://www.jstor.org/stable/2673312,10.1046/j.1472-4642.1999.00034.x,Yes,Matt 17,yes,not temporal,present,TRUE,FALSE,NA,NA,NA,FALSE,site,,Matt,17
+489,493,Andrew,1999,Diversity_and_Distributions,Lobo,http://www.jstor.org/stable/2673388,10.1046/j.1472-4642.1999.00039.x,Yes,Matt 19,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,19
+490,494,Andrew,1999,Diversity_and_Distributions,Stansbury,http://www.jstor.org/stable/2673389,10.1046/j.1472-4642.1999.00030.x,Yes,Meagan 30,,,,,,,,,,,,Meagan,30
+491,495,Andrew,1999,Diversity_and_Distributions,Niemela,http://www.jstor.org/stable/2673404,10.1046/j.1472-4642.1999.00048.x,Yes,Naia 16,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate mentioned,Naia,16
+492,496,Andrew,1999,Diversity_and_Distributions,Honnay,http://www.jstor.org/stable/2673405,10.1046/j.1472-4642.1999.00047.x,Yes,Naia 21,yes,not temporal,inconsistent,TRUE,TRUE and FALSE,1980,1990,station data,TRUE,site,year given for precipitation but no date range for temperature,Naia,21
+493,497,Andrew,1999,Diversity_and_Distributions,Vlok,http://www.jstor.org/stable/2673300,10.1046/j.1472-4642.1999.00055.x,Yes,Prahlad 06,,,,,,,,,,,,Prahlad,6
+494,498,Andrew,1999,Diversity_and_Distributions,Kondo,http://www.jstor.org/stable/2673301,10.1046/j.1472-4642.1999.00056.x,Yes,Prahlad 12,,,,,,,,,,,,Prahlad,12
+495,499,Andrew,1999,Diversity_and_Distributions,Gottfried,http://www.jstor.org/stable/2673338,10.1046/j.1472-4642.1999.00058.x,Yes,Prahlad 16,,,,,,,,,,,,Prahlad,16
+496,500,Andrew,1999,Diversity_and_Distributions,Rutherford,http://www.jstor.org/stable/2673339,10.1046/j.1472-4642.1999.00061.x,Yes,Rachael 45,,,,,,,,,,,,Rachael,45
+497,501,Andrew,2000,GCB,Scowcroft,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00282.x/abstract,10.1046/j.1365-2486.2000.00282.x,Yes,AndrewW 36,,,,,,,,,,,,AndrewW,36
+498,502,Andrew,2000,GCB,Waddington,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00283.x/abstract,10.1046/j.1365-2486.2000.00283.x,Yes,AndrewW 53,,,,,,,,,,,,AndrewW,53
+499,503,Andrew,2000,GCB,Law,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00291.x/abstract,10.1046/j.1365-2486.2000.00291.x,Yes,AndrewW 56,,,,,,,,,,,,AndrewW,56
+500,504,Andrew,2000,GCB,Camill,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00293.x/abstract,10.1046/j.1365-2486.2000.00293.x,Yes,Carrie 02,yes,climate change effects,present,TRUE,TRUE,1951,1980,station data,TRUE,regional,,Carrie,2
+501,505,Andrew,2000,GCB,Grant,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00288.x/abstract,10.1046/j.1365-2486.2000.00288.x,Yes,Carrie 12,yes,climate change effects,past,TRUE,TRUE,1994,1996,station data,FALSE,site,"Short term data, modeled cliamte increases",Carrie,12
+502,506,Andrew,2000,GCB,Hättenschwiler,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00301.x/full,10.1046/j.1365-2486.2000.00301.x,Yes,Cory 41,,,,,,,,,,,,Cory,41
+503,507,Andrew,2000,GCB,White,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00302.x/abstract,10.1046/j.1365-2486.2000.00302.x,Yes,AndrewT 17,yes,climate change effects,past,FALSE,TRUE,1860,2100,name_of_GCM,,continental,GCM used for 1860 to 2100 - all periods referred to as 'predictions',AndrewT,17
+504,508,Andrew,2000,GCB,Rodó,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00299.x/abstract,10.1046/j.1365-2486.2000.00299.x,Yes,AndrewT 47,,,,,,,,,,,,AndrewT,47
+505,509,Andrew,2000,GCB,Pendall,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00304.x/abstract,10.1046/j.1365-2486.2000.00304.x,Yes,Erin 02,yes,weather effects,present,TRUE,TRUE,1903,1996,multiple sources,FALSE,regional,"2 sources of climate data: (1) station data for site description, (2) measured PPT over study period. Authors refer to climate in site description in the present tense but give date ranges for temp/ppt/RH from weather station data at each location within study site. Multiple date ranges given for individual sites and climatic variables.  Additionally measured PPT at sites during study period (1989-1996)",Erin,2
+506,510,Andrew,2000,GCB,Gunter,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00313.x/full,10.1046/j.1365-2486.2000.00313.x,Yes,Matt 11,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,no climate data,Matt,11
+507,511,Andrew,2000,GCB,Starr,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00316.x/full,10.1046/j.1365-2486.2000.00316.x,Yes,Matt 51,,,,,,,,,,,,Matt,51
+508,512,Andrew,2000,GCB,Roy,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00322.x/abstract,10.1046/j.1365-2486.2000.00322.x,Yes,Naia 01,yes,climate change effects,past,TRUE,TRUE,1659,1998,regional,TRUE,regional,,Naia,1
+509,513,Andrew,2000,GCB,Osborne,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00336.x/full,10.1046/j.1365-2486.2000.00336.x,Yes,Naia 17,yes,climate change effects,past,TRUE,TRUE,1901,1995,mixed,TRUE,regional,"somewhat unclear what data is used when, mixing station climate data and large-scale predictions of vegetation change",Naia,17
+510,514,Andrew,2000,GCB,Griffis,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00330.x/full,10.1046/j.1365-2486.2000.00330.x,Yes,Naia 28,yes,not temporal,implicit present,TRUE,FALSE,NA,NA,not_specified,TRUE,site,"mentions that growing season weather differs from 30-year average, but only citation for climate date is given, with no details on time period or source",Naia,28
+511,515,Andrew,2000,GCB,Hallgren,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00325.x/full,10.1046/j.1365-2486.2000.00325.x,Yes,Naia 42,,,,,,,,,,,,Naia,42
+512,516,Andrew,2000,GCB,Kleidon,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00332.x/full,10.1046/j.1365-2486.2000.00332.x,Yes,Naia 48,,,,,,,,,,,,Naia,48
+513,517,Andrew,2000,GCB,Rupp,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00337.x/full,10.1046/j.1365-2486.2000.00337.x,Yes,Prahlad 11,,,,,,,,,,,,Prahlad,11
+514,518,Andrew,2000,GCB,Tuittila,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00341.x/full,10.1046/j.1365-2486.2000.00341.x,Yes,Prahlad 33,,,,,,,,,,,,Prahlad,33
+515,519,Andrew,2000,GCB,Delucia,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00338.x/abstract,10.1046/j.1365-2486.2000.00338.x,Yes,Prahlad 54,,,,,,,,,,,,Prahlad,54
+516,520,Andrew,2000,GCB,White2,http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00344.x/abstract,10.1046/j.1365-2486.2000.00344.x,Yes,Rachael 34,,,,,,,,,,,,Rachael,34
+517,521,Andrew T,2000,American_Naturalist,Koenig,http://www.jstor.org/stable/10.1086/303302,10.1086/303302,,AndrewW 27,,,,,,,,,,,,AndrewW,27
+518,522,Andrew T,2000,American_Naturalist,Clauss,http://www.jstor.org/stable/10.1086/303314,10.1086/303314,,Carrie 09,yes,weather effects,present,TRUE,TRUE,1996,1997,site data,FALSE,site,"Reports temps for months of study, not climate",Carrie,9
+519,523,Andrew T,2000,American_Naturalist,Kaspari,http://www.jstor.org/stable/10.1086/303313,10.1086/303313,,Carrie 41,,,,,,,,,,,,Carrie,41
+520,524,Andrew T,2000,American_Naturalist,Brommer,http://www.jstor.org/stable/10.1086/303335,10.1086/303335,,Carrie 47,,,,,,,,,,,,Carrie,47
+521,525,Andrew T,2000,American_Naturalist,Ernsting,http://www.jstor.org/stable/10.1086/303361,10.1086/303361,,Carrie 57,,,,,,,,,,,,Carrie,57
+522,526,Andrew T,2000,American_Naturalist,Galen,http://www.jstor.org/stable/10.1086/303373,10.1086/303373,,Cory 01,,,,,,,,,,,,Cory,1
+523,527,Andrew T,2000,American_Naturalist,Galen,http://www.jstor.org/stable/10.1086/303373,10.1086/303373,,Cory 30,,,,,,,,,,,,Cory,30
+524,528,Andrew T,2000,American_Naturalist,Linder,http://www.jstor.org/stable/10.1086/303399,10.1086/303399,,Cory 38,,,,,,,,,,,,Cory,38
+525,529,Andrew T,2001,American_Naturalist,Niewiarowski,http://www.jstor.org/stable/10.1086/319321,10.1086/319321,,AndrewT 28,no,weather effects,,NA,,,,,,site,"seasonal effects around heat, no climate data referred to in paper. Seasons described in terms of months and activity of lizards",AndrewT,28
+526,530,Andrew T,2002,American_Naturalist,van Rensburg,http://www.jstor.org/stable/10.1086/339464,10.1086/339464,,Erin 10,yes,not temporal,implicit past,TRUE,FALSE,NA,NA,regional,TRUE,regional,effect of spatial resolution on relationship between species richness and environment. interpolated climate data calculated from averages of 'past 30-50 years',Erin,10
+527,531,Andrew T,2002,American_Naturalist,Ovaskainen,http://www.jstor.org/stable/10.1086/342818,10.1086/342818,,Erin 56,,,,,,,,,,,,Erin,56
+528,532,Andrew T,2003,American_Naturalist,Francis,http://www.jstor.org/stable/10.1086/368223,10.1086/368223,,Matt 36,,,,,,,,,,,,Matt,36
+529,533,Andrew T,2004,American_Naturalist,Huber,http://www.jstor.org/stable/10.1086/382549,10.1086/382549,,Matt 43,,,,,,,,,,,,Matt,43
+530,534,Andrew T,2004,American_Naturalist,Langvatn,http://www.jstor.org/stable/10.1086/383594,10.1086/383594,Yes,Naia 04,yes,not temporal,unclear,TRUE,FALSE,NA,NA,global,TRUE,regional,use NAO index but no date range or results mentioned,Naia,4
+531,535,Andrew T,2004,American_Naturalist,Preisser,http://www.jstor.org/stable/10.1086/383620,10.1086/383620,,Naia 23,yes,weather effects,past,TRUE,TRUE,1969,2002,mixed,TRUE,site,,Naia,23
+532,536,Andrew T,2005,American_Naturalist,Santos,http://www.jstor.org/stable/10.1086/427093,10.1086/427093,,Prahlad 25,,,,,,,,,,,,Prahlad,25
+533,537,Andrew T,2006,American_Naturalist,Angilletta,http://www.jstor.org/stable/10.1086/507880,10.1086/507880,,Prahlad 35,,,,,,,,,,,,Prahlad,35
+534,538,Andrew T,2007,American_Naturalist,Rowe,http://www.jstor.org/stable/10.1086/518948,10.1086/518948,,Rachael 38,,,,,,,,,,,,Rachael,38
+535,539,Andrew T,2008,American_Naturalist,Snäll,http://www.jstor.org/stable/10.1086/525051,10.1086/525051,,Rachael 40,,,,,,,,,,,,Rachael,40
+536,540,Andrew T,2008,American_Naturalist,Hesse,http://www.jstor.org/stable/10.1086/591683,10.1086/591683,,Rachael 46,,,,,,,,,,,,Rachael,46
+537,541,Andrew T,1980,Journal_of_Ecology,Taylor,http://www.jstor.org/stable/2259243,10.2307/2259243,,Carrie 16,yes,weather effects,past,TRUE,TRUE,1966,1970,site data,NA,site,"Only rainfall, not temp. Still ok?",Carrie,16
+538,542,Andrew T,1980,Journal_of_Ecology,Smith,http://www.jstor.org/stable/2259244,10.2307/2259244,,Carrie 19,yes,weather effects,implicit past,TRUE,TRUE,1970,1973,station data,FALSE,site,"No text with tense, just table",Carrie,19
+539,543,Andrew T,1980,Journal_of_Ecology,Braswell,http://www.jstor.org/stable/2259247,10.2307/2259247,,Carrie 26,yes,weather effects,present,TRUE,FALSE,NA,NA,station data,TRUE,site,,Carrie,26
+540,544,Andrew T,1980,Journal_of_Ecology,Opler,http://www.jstor.org/stable/2259250,10.2307/2259250,,Carrie 42,,,,,,,,,,,,Carrie,42
+541,545,Andrew T,1980,Journal_of_Ecology,Solbrig,http://www.jstor.org/stable/2259420,10.2307/2259420,,Carrie 55,,,,,,,,,,,,Carrie,55
+542,546,Andrew T,1980,Journal_of_Ecology,Pρ̆ibάν̆,http://www.jstor.org/stable/2259421,10.2307/2259421,,Cory 26,,,,,,,,,,,,Cory,26
+543,547,Andrew T,1980,Journal_of_Ecology,Tanner,http://www.jstor.org/stable/2259423,10.2307/2259423,,Cory 29,,,,,,,,,,,,Cory,29
+544,548,Andrew T,1980,Journal_of_Ecology,Barkham,http://www.jstor.org/stable/2259426,10.2307/2259426,,Cory 32,,,,,,,,,,,,Cory,32
+545,549,Andrew T,1980,Journal_of_Ecology,Tanner,http://www.jstor.org/stable/2259459,10.2307/2259459,,Cory 55,,,,,,,,,,,,Cory,55
+546,550,Andrew T,1980,Journal_of_Ecology,Primack,http://www.jstor.org/stable/2259460,10.2307/2259460,,AndrewT 43,,,,,,,,,,,,AndrewT,43
+547,551,Andrew T,1980,Journal_of_Ecology,Schemske,http://www.jstor.org/stable/2259468,10.2307/2259468,,Erin 43,,,,,,,,,,,,Erin,43
+548,552,Andrew T,1981,Journal_of_Ecology,Klemow,http://www.jstor.org/stable/2259814,10.2307/2259814,,Matt 45,,,,,,,,,,,,Matt,45
+549,553,Andrew T,1981,Journal_of_Ecology,Persson,http://www.jstor.org/stable/2259816,10.2307/2259816,,Matt 56,,,,,,,,,,,,Matt,56
+550,554,Andrew T,1981,Journal_of_Ecology,Phillips,http://www.jstor.org/stable/2259818,10.2307/2259818,,Meagan 04,,,,,,,,,,,,Meagan,4
+551,555,Andrew T,1981,Journal_of_Ecology,Nobel,www.jstor.org/stable/2259632,10.2307/2259632,,Meagan 36,,,,,,,,,,,,Meagan,36
+552,556,Andrew T,1981,Journal_of_Ecology,Kalin Arroyo,http://www.jstor.org/stable/2259826,10.2307/2259826,,Meagan 42,,,,,,,,,,,,Meagan,42
+553,557,Andrew T,1981,Journal_of_Ecology,Douglas,http://www.jstor.org/stable/2259832,10.2307/2259832,Yes,Naia 27,yes,not temporal,implicit past,TRUE,TRUE,1975,1976,site data,FALSE,site,,Naia,27
+554,558,Andrew T,1981,Journal_of_Ecology,Cohen,http://www.jstor.org/stable/2259675,10.2307/2259675,,Rachael 24,,,,,,,,,,,,Rachael,24
+555,559,Andrew T,1981,Journal_of_Ecology,Watt,http://www.jstor.org/stable/2259681,10.2307/2259681,,Rachael 43,,,,,,,,,,,,Rachael,43
+556,560,Andrew T,1981,Journal_of_Ecology,Uhl,http://www.jstor.org/stable/2259689,10.2307/2259689,,Rachael 53,,,,,,,,,,,,Rachael,53
+557,561,Andrew T,2010,Ecology,Friberg,http://www.jstor.org/stable/25661017,10.2307/25661017,,AndrewW 33,,,,,,,,,,,,AndrewW,33
+558,562,Andrew T,2010,Ecology,Kreyling,http://www.jstor.org/stable/25680444,10.1890/09-1160.1,,Carrie 30,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,review paper,Carrie,30
+559,563,Andrew T,2010,Ecology,Bridgeland,http://www.jstor.org/stable/25661025,10.2307/25661025,,AndrewT 36,,,,,,,,,,,,AndrewT,36
+560,564,Andrew T,2010,Ecology,Levine,http://www.jstor.org/stable/25661030,10.2307/25661030,,AndrewT 40,,,,,,,,,,,,AndrewT,40
+561,565,Andrew T,2010,Ecology,Hunter,http://www.jstor.org/stable/20788114,10.1890/09-1641.1,,AndrewT 52,,,,,,,,,,,,AndrewT,52
+562,566,Andrew T,2010,Ecology,Barton,http://www.jstor.org/stable/20788107 ,10.1890/09-2278.1,,Erin 30,yes,climate change effects,present,TRUE,FALSE,NA,NA,NA,TRUE,site,"climate referenced in site description, otherwise effects of warming temps were investigated through experimental manipulations (not temporal).",Erin,30
+563,567,Andrew T,2010,Ecology,Murphy,http://www.jstor.org/stable/25661041,10.2307/25661041,,Erin 33,,,,,,,,,,,,Erin,33
+564,568,Andrew T,2010,Ecology,Damschen,http://www.jstor.org/stable/29779544,10.1890/09-1057.1,,Matt 13,,,,,,,,,,,,Matt,13
+565,569,Andrew T,2010,Ecology,Karhu,http://www.jstor.org/stable/25661063,10.2307/25661063,,Meagan 01,,,,,,,,,,,,Meagan,1
+566,570,Andrew T,2010,Ecology,Lebrija-Trejos,http://www.jstor.org/stable/25661065,10.2307/25661065,,Meagan 15,,,,,,,,,,,,Meagan,15
+567,571,Andrew T,2010,Ecology,Forrest,http://www.jstor.org/stable/25661069,10.2307/25661069,,Meagan 29,,,,,,,,,,,,Meagan,29
+568,572,Andrew T,2010,Ecology,Camill,http://www.jstor.org/stable/25661071,10.2307/25661071,,Meagan 38,,,,,,,,,,,,Meagan,38
+569,573,Andrew T,2010,Ecology,Canham,http://www.jstor.org/stable/29779523,10.1890/10-0312.1,,Meagan 52,,,,,,,,,,,,Meagan,52
+570,574,Andrew T,2010,Ecology,Previtali,http://www.jstor.org/stable/25661083,10.2307/25661083,,Naia 05,yes,weather effects,past,TRUE,TRUE,1990,2007,station data,TRUE,site,,Naia,5
+571,575,Andrew T,2010,Ecology,McCain,http://www.jstor.org/stable/25661085,10.2307/25661085,,Naia 44,,,,,,,,,,,,Naia,44
+572,576,Andrew T,2010,Ecology,Piao,http://www.jstor.org/stable/25661099,10.2307/25661099,,Prahlad 14,,,,,,,,,,,,Prahlad,14
+573,577,Andrew T,2010,Ecology,Kardol,http://www.jstor.org/stable/25661109,10.2307/25661109,,Rachael 18,,,,,,,,,,,,Rachael,18
+574,578,Andrew T,2010,Ecology,Stien,http://www.jstor.org/stable/25661122,10.2307/25661122,,Rachael 26,,,,,,,,,,,,Rachael,26
+575,579,Andrew T,2010,Ecology,Qian,http://www.jstor.org/stable/25661159,10.2307/25661159,,Rachael 37,,,,,,,,,,,,Rachael,37
+576,580,Andrew T,2010,Ecology,van der Pol,http://www.jstor.org/stable/25661161,10.2307/25661161,,Rachael 52,,,,,,,,,,,,Rachael,52
+577,581,Erin,1990,Journal_of_Ecology,Schwaegerle,http://www.jstor.org/stable/2261033,10.2307/2261033,Yes,Carrie 14,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,No weather or climate data included,Carrie,14
+578,582,Erin,1990,Journal_of_Ecology,Groves,http://www.jstor.org/stable/2261035,10.2307/2261035,Yes,Carrie 28,yes,not temporal,present,TRUE,TRUE,NA,NA,not_specified,FALSE,site,"Says ""30 year avg"" but does not state what years",Carrie,28
+579,583,Erin,1990,Journal_of_Ecology,Collins,http://www.jstor.org/stable/2261037,10.2307/2261037,Yes,Carrie 31,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,,Carrie,31
+580,584,Erin,1990,Journal_of_Ecology,Read,http://www.jstor.org/stable/2261039,10.2307/2261039,Yes,Carrie 43,,,,,,,,,,,,Carrie,43
+581,585,Erin,1990,Journal_of_Ecology,Duke,http://www.jstor.org/stable/2261040,10.2307/2261040,Yes,Carrie 51,,,,,,,,,,,,Carrie,51
+582,586,Erin,1990,Journal_of_Ecology,Hayati,http://www.jstor.org/stable/2261041,10.2307/2261041,Yes,AndrewT 22,no,not temporal,,NA,NA,NA,NA,NA,FALSE,site,no climate reference in paper,AndrewT,22
+583,587,Erin,1990,Journal_of_Ecology,Carlsson,http://www.jstor.org/stable/2261042,10.2307/2261042,Yes,Erin 11,yes,not temporal,present,TRUE,FALSE,NA,NA,station data,TRUE,site,,Erin,11
+584,588,Erin,1990,Journal_of_Ecology,Watkinson,http://www.jstor.org/stable/2261045,10.2307/2261045,Yes,Erin 22,no,not temporal,implicit past,FALSE,TRUE,1974,1982,not_specified,FALSE,site,"poplation dynamics. Weather mentioned only in results and no summaries/stats were given of actual temp or precip data. Also time interval is implicit. (e.g., 'weather data during the study period'; 'no time trend over study period'; 'mortality during infloresence highly dependent on May weather')",Erin,22
+585,589,Erin,1990,Journal_of_Ecology,van Wilgen,http://www.jstor.org/stable/2261046,10.2307/2261046,Yes,Erin 28,yes,not temporal,present,TRUE,FALSE,NA,NA,not_specified,FALSE,site,,Erin,28
+586,590,Erin,1990,Journal_of_Ecology,Hegarty,http://www.jstor.org/stable/2261113,10.2307/2261113,Yes,Matt 16,yes,not temporal,present,TRUE,FALSE,NA,NA,NA,FALSE,site,,Matt,16
+587,591,Erin,1990,Journal_of_Ecology,Ohsawa,http://www.jstor.org/stable/2261115,10.2307/2261115,Yes,Matt 40,yes,not temporal,implicit present,FALSE,FALSE,NA,NA,station data,TRUE,continental,,Matt,40
+588,592,Erin,1990,Journal_of_Ecology,Williams-Linera,http://www.jstor.org/stable/2261117,10.2307/2261117,Yes,Matt 44,yes,not temporal,present,TRUE,FALSE,NA,NA,NA,FALSE,site,,Matt,44
+589,593,Erin,1990,Journal_of_Ecology,Powell,http://www.jstor.org/stable/2261118,10.2307/2261118,Yes,Meagan 12,,,,,,,,,,,,Meagan,12
+590,594,Erin,1990,Journal_of_Ecology,Fowler,http://www.jstor.org/stable/2261119,10.2307/2261119,Yes,Naia 07,,,,,,,,,,,,Naia,7
+591,595,Erin,1990,Journal_of_Ecology,Johnson,http://www.jstor.org/stable/2261120,10.2307/2261120,Yes,Naia 34,,,,,,,,,,,,Naia,34
+592,596,Erin,1990,Journal_of_Ecology,Whitney,http://www.jstor.org/stable/2261123,10.2307/2261123,Yes,Prahlad 17,,,,,,,,,,,,Prahlad,17
+593,597,Erin,1990,Journal_of_Ecology,Anderson,http://www.jstor.org/stable/2261125,10.2307/2261125,Yes,Prahlad 30,,,,,,,,,,,,Prahlad,30
+594,598,Erin,1990,Journal_of_Ecology,Maltby,http://www.jstor.org/stable/2261126,10.2307/2261126,Yes,Prahlad 32,,,,,,,,,,,,Prahlad,32
+595,599,Erin,1990,Journal_of_Ecology,Bormann,http://www.jstor.org/stable/2260884,10.2307/2260884,Yes,Prahlad 49,,,,,,,,,,,,Prahlad,49
+596,600,Erin,1990,Journal_of_Ecology,Wong,http://www.jstor.org/stable/2260885,10.2307/2260885,Yes,Rachael 49,,,,,,,,,,,,Rachael,49
