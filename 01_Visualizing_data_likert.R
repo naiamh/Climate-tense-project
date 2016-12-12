@@ -1,8 +1,13 @@
-# Preliminary analyses of climate-tense data
-# May 8 2015 v1
-# Naia, Carrie and Andrew
+# Visualizations with likert
+# November 2016 v1
+# Naia
 
 rm(list=ls())
+
+mypck=dir('C:/Users/Naia Morueta Holme/Documents/R/win-library/3.2')
+
+require(devtools)
+install_github('likert','jbryer')
 
 library(ggplot2)
 
