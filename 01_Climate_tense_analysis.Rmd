@@ -19,7 +19,7 @@ require(dplyr)
 Read in the raw data 
 ```{r}
 # NOTE: DOWNLOAD COPY FROM GOOGLE DRIVE AND CHANGE FILE NAME HERE ACCORDINGLY
-rawData = read.csv('Data/Data_CC_tense_01Oct2015.csv', as.is=T) 
+rawData = read.csv('Data/Data_CC_tense_01Oct2015_v2.csv', as.is=T) 
 ```
 
 Clean the data
@@ -49,13 +49,6 @@ table(df$paper_focus)
 df = subset(df, paper_focus != "***not temporal")
 
 ```
-
-<!-- Lump the classes "implicit past" and "past", and "implicit present" and "present" in a new column -->
-<!-- ```{r} -->
-<!-- df$lump_tense = df$tense -->
-<!-- df$lump_tense[which(df$tense=='implicit past' | df$tense=='past')] = 'past' -->
-<!-- df$lump_tense[which(df$tense=='implicit present' | df$tense=='present')] = 'present' -->
-<!-- ``` -->
 
 Table with impact factor for each journal (from www.citefactor.org)
 ```{r}
@@ -172,13 +165,14 @@ TenseBasicPlot <- ggplot(TenseSum,aes(x=tense,y=rel.freq)) +
   theme(axis.title.y = element_blank())
   
 TenseBasicPlot
+```
 
+```{r include=F}
 #Adapt files for likert plots
 d1 <-
   df %>%
   #filter(!is.na(Journal), !is.na(geographic_extent_of_study)) %>%
   select(tense)
-
 #order the data
 d1$tense <- factor(d1$tense,
                    c("past",
@@ -187,6 +181,25 @@ d1$tense <- factor(d1$tense,
                      "implicit present",
                      "inconsistent",
                      "unclear"))
+
+
+
+#Lump inconsistent and unclear tenses
+d2 <- 
+  df %>%
+  #filter(!is.na(Journal), !is.na(geographic_extent_of_study)) %>%
+  select(tense)
+#order the data
+d2$tense[which(d2$tense=='unclear' | d2$tense=='inconsistent')] = 'unclear_inconsistent'
+
+  
+
+d2$tense <- factor(d2$tense,
+                           c("past",
+                             "implicit past",
+                             "unclear_inconsistent",
+                             "implicit present",
+                             "present"))
 
 # subset grouping variables
 d1_groups <- 
@@ -243,4 +256,13 @@ title <- "Does use of tense change over time?"
 plot(likert_14, center=2.5) + ggtitle(title)
 ```
 
+Plots lumping 'unclear' and 'inconsistent'
+```{r echo=F}
+likert_22 <- likert(d2, grouping = d1_groups$geographic_extent_of_study)
+title <- "Does tense depend on extent of study?"
+plot(likert_22) + ggtitle(title)
 
+likert_23 <- likert(d2, grouping = d1_groups$paper_focus)
+title <- "Does tense depend on focus of study?"
+plot(likert_23) + ggtitle(title)
+```
