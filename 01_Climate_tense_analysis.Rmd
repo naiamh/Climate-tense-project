@@ -14,6 +14,7 @@ Clean workspace and load libraries
 require(likert)
 require(ggplot2)
 require(dplyr)
+require(gmodels)
 ```
 
 Read in the raw data 
@@ -55,6 +56,12 @@ Table with impact factor for each journal (from www.citefactor.org)
 IF_lookup = data.frame(Journal = sort(unique(df$Journal)),IF2014=c(4.454, 5.469, 5.000, 13.042, 4.248, 5.694, 42.351, 9.809))
 ```
 
+Add tense_lumpbad column
+```{r}
+df$tense_lumpbad <- df$tense
+df$tense_lumpbad[which(df$tense=='unclear' | df$tense=='inconsistent')] = 'unclear_inconsistent'
+
+```
 
 <!-- #-----------------# -->
 <!-- # THE FUN BEGINS! # -->
@@ -188,13 +195,9 @@ d1$tense <- factor(d1$tense,
 d2 <- 
   df %>%
   #filter(!is.na(Journal), !is.na(geographic_extent_of_study)) %>%
-  select(tense)
+  select(tense_lumpbad)
 #order the data
-d2$tense[which(d2$tense=='unclear' | d2$tense=='inconsistent')] = 'unclear_inconsistent'
-
-  
-
-d2$tense <- factor(d2$tense,
+d2$tense_lumpbad <- factor(d2$tense_lumpbad,
                            c("past",
                              "implicit past",
                              "unclear_inconsistent",
@@ -265,4 +268,44 @@ plot(likert_22) + ggtitle(title)
 likert_23 <- likert(d2, grouping = d1_groups$paper_focus)
 title <- "Does tense depend on focus of study?"
 plot(likert_23) + ggtitle(title)
+
+```
+
+
+```{r include=F, echo=F}
+#Tables cross-classifying tense and groupings (since plots look fishy...)
+## How to order the columns
+order_cols <- c('past','implicit past', 'present', 'implicit present', 'unclear_inconsistent')
+
+t1 <- CrossTable(df$paper_focus, df$tense_lumpbad)
+res <-apply(t1$prop.row,2,function(x) {round(x*100,1)})
+
+order_rows <- c('climate change effects','weather effects','not temporal')
+ResFocus <- res[order_rows,order_cols]
+
+t1 <- CrossTable(df$geographic_extent_of_study, df$tense_lumpbad)
+res <- apply(t1$prop.row,2,function(x) {round(x*100,1)})
+
+order_rows <- c('global','continental','regional','site')
+ResExtent <- res[order_rows,order_cols]
+
+t1 <- CrossTable(df$climate_date_range, df$tense_lumpbad)
+res <-apply(t1$prop.row,2,function(x) {round(x*100,1)})
+
+order_rows <- c('TRUE','FALSE')
+ResDateRange <- res[order_rows,order_cols]
+
+t1 <- CrossTable(df$citation, df$tense_lumpbad)
+res <-apply(t1$prop.row,2,function(x) {round(x*100,1)})
+
+order_rows <- c('TRUE','FALSE')
+ResCitation <- res[order_rows,order_cols]
+```
+
+Crosstabulations in percent
+```{r}
+ResFocus
+ResExtent
+ResDateRange
+ResCitation
 ```
