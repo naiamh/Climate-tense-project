@@ -1,0 +1,246 @@
+---
+title: "Climate tense analysis"
+author: "Naia Morueta-Holme"
+date: "November 28 2016"
+output: html_document
+---
+```{r setup, include=F}
+knitr::opts_chunk$set(comment = "#>")
+```
+### Prepare data
+Clean workspace and load libraries
+```{r include=FALSE}
+#rm(list=ls())
+require(likert)
+require(ggplot2)
+require(dplyr)
+```
+
+Read in the raw data 
+```{r}
+# NOTE: DOWNLOAD COPY FROM GOOGLE DRIVE AND CHANGE FILE NAME HERE ACCORDINGLY
+rawData = read.csv('Data/Data_CC_tense_01Oct2015.csv', as.is=T) 
+```
+
+Clean the data
+```{r message=F}
+#Note: several of these clean-ups should be irrelevant once we have the full dataset
+# Filter papers that have actually been checked
+filledData = rawData[which(rawData$OK_for_analysis != ''),]
+table(filledData$OK_for_analysis)
+
+# Select papers that are OK for analysis, and the relevant columns
+df = filledData[which(filledData$OK_for_analysis == 'yes'),
+                    c('ID_old','Publication_year','Journal','paper_focus',
+                      'tense','confidence_in_tense','climate_date_range',
+                      'climate_date_min','climate_date_max',
+                      'climate_data_source','citation',
+                      'geographic_extent_of_study','Data_collector_name')]
+
+# Filter papers where climate_data_range is filled correctly
+table(df$climate_date_range)
+df = subset(df, climate_date_range == T | df$climate_date_range == F)
+
+# Filter papers with full geographic extent information (1 missing)
+df = subset(df, geographic_extent_of_study != '')
+
+# Filter papers where focus of study is filled correctly
+table(df$paper_focus)
+df = subset(df, paper_focus != "***not temporal")
+
+```
+
+<!-- Lump the classes "implicit past" and "past", and "implicit present" and "present" in a new column -->
+<!-- ```{r} -->
+<!-- df$lump_tense = df$tense -->
+<!-- df$lump_tense[which(df$tense=='implicit past' | df$tense=='past')] = 'past' -->
+<!-- df$lump_tense[which(df$tense=='implicit present' | df$tense=='present')] = 'present' -->
+<!-- ``` -->
+
+Table with impact factor for each journal (from www.citefactor.org)
+```{r}
+IF_lookup = data.frame(Journal = sort(unique(df$Journal)),IF2014=c(4.454, 5.469, 5.000, 13.042, 4.248, 5.694, 42.351, 9.809))
+```
+
+
+<!-- #-----------------# -->
+<!-- # THE FUN BEGINS! # -->
+<!-- #-----------------# -->
+## Heads up!
+Need to check a few tense assignments...
+```{r echo=F}
+table(df$confidence_in_tense)
+
+TenseSum <-
+  df %>%
+  group_by(confidence_in_tense) %>%
+  summarise(n=n()) %>%
+  mutate(rel.freq = round(100*n/sum(n), 0))
+
+#TenseSum
+
+TenseBasicPlot <- ggplot(TenseSum,aes(x=confidence_in_tense,y=rel.freq)) +
+  geom_bar(stat="identity") +
+  coord_flip() +
+  ggtitle("Confidence in tense assignment?") +
+  ylab("% papers") +
+  theme(axis.ticks.y = element_blank()) +
+  theme(axis.title.y = element_blank())
+  
+TenseBasicPlot
+```
+
+Sampling per collector is not even
+```{r echo=F}
+#table(df$Data_collector_name)
+
+TenseSum <-
+  df %>%
+  group_by(Data_collector_name) %>%
+  summarise(n=n()) %>%
+  mutate(rel.freq = round(100*n/sum(n), 0))
+
+#TenseSum
+
+TenseBasicPlot <- ggplot(TenseSum,aes(x=Data_collector_name,y=rel.freq)) +
+  geom_bar(stat="identity") +
+  coord_flip() +
+  ggtitle("Papers included per data collector?") +
+  ylab("% papers") +
+  theme(axis.ticks.y = element_blank()) +
+  theme(axis.title.y = element_blank())
+  
+TenseBasicPlot
+```
+
+And journal representation is also uneven
+```{r echo=F}
+#table(df$Journal)
+
+TenseSum <-
+  df %>%
+  group_by(Journal) %>%
+  summarise(n=n()) %>%
+  mutate(rel.freq = round(100*n/sum(n), 0))
+
+#TenseSum
+
+TenseBasicPlot <- ggplot(TenseSum,aes(x=Journal,y=rel.freq)) +
+  geom_bar(stat="identity") +
+  coord_flip() +
+  ggtitle("Papers included for each journal?") +
+  ylab("% papers") +
+  theme(axis.ticks.y = element_blank()) +
+  theme(axis.title.y = element_blank())
+  
+TenseBasicPlot
+```
+
+How about representation across time?
+```{r echo=F}
+## Differences across time?
+#Distribution of papers over time -> use to decide whether to work with proportions or raw counts
+hist(rawData$Publication_year, breaks=seq(1979,2020,10), main="Papers per time period", ylim=c(0,250)) #all papers
+hist(df$Publication_year, breaks=seq(1979,2020,10), add=T, col="grey")
+legend(x="topright", legend=c("All", "In analysis"), fill=c("white", "grey"))
+```
+
+But looks like there are more papers to be found!
+```{r echo=F}
+hist(rawData$Publication_year, breaks=seq(1979,2020,5), main="Papers per time period", ylim=c(0,250)) #all papers
+hist(df$Publication_year, breaks=seq(1979,2020,5), add=T, col="grey")
+legend(x="topright", legend=c("All", "In analysis"), fill=c("white", "grey"))
+```
+
+
+## Preliminary plots
+```{r include=F}
+TenseSum <-
+  df %>%
+  group_by(tense) %>%
+  summarise(n=n()) %>%
+  mutate(rel.freq = round(100*n/sum(n), 0))
+
+TenseSum
+
+TenseBasicPlot <- ggplot(TenseSum,aes(x=tense,y=rel.freq)) +
+  geom_bar(stat="identity") +
+  coord_flip() +
+  ggtitle("In what tense is climate referred to?") +
+  ylab("% papers") +
+  theme(axis.ticks.y = element_blank()) +
+  theme(axis.title.y = element_blank())
+  
+TenseBasicPlot
+
+#Adapt files for likert plots
+d1 <-
+  df %>%
+  #filter(!is.na(Journal), !is.na(geographic_extent_of_study)) %>%
+  select(tense)
+
+#order the data
+d1$tense <- factor(d1$tense,
+                   c("past",
+                     "implicit past",
+                     "present",
+                     "implicit present",
+                     "inconsistent",
+                     "unclear"))
+
+# subset grouping variables
+d1_groups <- 
+  df %>%
+  #filter(!is.na(Journal), !is.na(geographic_extent_of_study)) %>%
+  select(Journal, geographic_extent_of_study, paper_focus)
+
+d1_groups$geographic_extent_of_study <- factor(d1_groups$geographic_extent_of_study, 
+                     c("site",
+                       "regional",
+                       "continental",
+                       "global"))
+d1_groups$Journal <- factor(d1_groups$Journal,
+                            c("GCB",
+                              "American_Naturalist",
+                              "Ecology",
+                              "Diversity_and_Distributions",
+                              "Journal_of_Ecology",
+                              "PNAS",
+                              "Ecology_Letters",
+                              "Nature"))
+
+d1_groups$paper_focus <- factor(d1_groups$paper_focus,
+                                c("not temporal",
+                                  "weather effects",
+                                  "climate change effects"))
+
+
+d1_groups$decade <- sapply(df$Publication_year, function(x) {floor(x/10)*10})
+d1_groups$decade <- factor(d1_groups$decade,
+                           c("1980",
+                             "1990",
+                             "2000",
+                             "2010"))
+
+```
+
+
+```{r echo=F}
+likert_11 <- likert(d1, grouping = d1_groups$Journal)
+title <- "How is climate referred to across journals?"
+plot(likert_11, center=2.5) + ggtitle(title)
+
+likert_12 <- likert(d1, grouping = d1_groups$geographic_extent_of_study)
+title <- "Does tense depend on extent of study?"
+plot(likert_12, center=2.5) + ggtitle(title)
+
+likert_13 <- likert(d1, grouping = d1_groups$paper_focus)
+title <- "Does tense depend on focus of study?"
+plot(likert_13, center=2.5) + ggtitle(title)
+
+likert_14 <- likert(d1, grouping = d1_groups$decade)
+title <- "Does use of tense change over time?"
+plot(likert_14, center=2.5) + ggtitle(title)
+```
+
+
