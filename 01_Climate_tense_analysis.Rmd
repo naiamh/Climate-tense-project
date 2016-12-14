@@ -7,7 +7,7 @@ output: html_document
 ```{r setup, include=F}
 knitr::opts_chunk$set(comment = "#>")
 ```
-### Prepare data
+### 1. Prepare data
 Clean workspace and load libraries
 ```{r include=FALSE}
 #rm(list=ls())
@@ -66,7 +66,7 @@ df$tense_lumpbad[which(df$tense=='unclear' | df$tense=='inconsistent')] = 'uncle
 <!-- #-----------------# -->
 <!-- # THE FUN BEGINS! # -->
 <!-- #-----------------# -->
-## Heads up!
+### 2. A few checks of missing values...
 Need to check a few tense assignments...
 ```{r echo=F}
 table(df$confidence_in_tense)
@@ -153,7 +153,7 @@ legend(x="topright", legend=c("All", "In analysis"), fill=c("white", "grey"))
 ```
 
 
-## Preliminary plots
+### 3. Preliminary plots
 ```{r include=F}
 TenseSum <-
   df %>%
@@ -259,7 +259,9 @@ title <- "Does use of tense change over time?"
 plot(likert_14, center=2.5) + ggtitle(title)
 ```
 
-Plots lumping 'unclear' and 'inconsistent'
+### 4. Plots lumping 'unclear' and 'inconsistent'
+#### These plots look weird! 
+(grey are plotted twice, not centered correctly)
 ```{r echo=F}
 likert_22 <- likert(d2, grouping = d1_groups$geographic_extent_of_study)
 title <- "Does tense depend on extent of study?"
@@ -269,9 +271,10 @@ likert_23 <- likert(d2, grouping = d1_groups$paper_focus)
 title <- "Does tense depend on focus of study?"
 plot(likert_23) + ggtitle(title)
 
+
 ```
 
-
+### 5. Crosstabulations that we want to show in a multi-panel figure
 ```{r include=F, echo=F}
 #Tables cross-classifying tense and groupings (since plots look fishy...)
 ## How to order the columns
@@ -302,10 +305,10 @@ order_rows <- c('TRUE','FALSE')
 ResCitation <- res[order_rows,order_cols]
 ```
 
-Crosstabulations in percent
+
 ```{r}
-ResFocus
 ResExtent
+ResFocus
 ResDateRange
 ResCitation
 ```
