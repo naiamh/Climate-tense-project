@@ -173,6 +173,24 @@ TenseBasicPlot <- ggplot(TenseSum,aes(x=tense,y=rel.freq)) +
   
 TenseBasicPlot
 ```
+```{r include=F}
+DateRangeSum <-
+  df %>%
+  group_by(climate_date_range) %>%
+  summarise(n=n()) %>%
+  mutate(rel.freq = round(100*n/sum(n), 0))
+DateRangeSum
+```
+
+```{r include=F}
+CitationSum <-
+  df %>%
+  group_by(citation) %>%
+  summarise(n=n()) %>%
+  mutate(rel.freq = round(100*n/sum(n), 0))
+
+CitationSum
+```
 
 ```{r include=F}
 #Adapt files for likert plots
@@ -311,4 +329,14 @@ ResExtent
 ResFocus
 ResDateRange
 ResCitation
+```
+Some more cross tabulations
+```{r}
+t1 <- CrossTable(df$climate_date_range, df$citation)
+res1 <-apply(t1$prop.row,2,function(x) {round(x*100,1)})
+
+t1 <- CrossTable(df$climate_data_source, df$geographic_extent_of_study)
+res2 <-apply(t1$prop.row,2,function(x) {round(x*100,1)})
+
+
 ```
