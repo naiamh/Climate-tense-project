@@ -7,7 +7,7 @@ rm(list=ls())
 mypck=dir('C:/Users/Naia Morueta Holme/Documents/R/win-library/3.2')
 
 require(devtools)
-install_github('likert','jbryer')
+#install_github('likert','jbryer')
 
 library(ggplot2)
 
@@ -15,7 +15,8 @@ library(ggplot2)
 
 # NOTE: DOWNLOAD COPY FROM GOOGLE DRIVE AND CHANGE FILE NAME HERE ACCORDINGLY
 #rawData = read.csv('Data/Test_data.csv', as.is=T) 
-rawData = read.csv('Data/Data_CC_tense_01Oct2015.csv', as.is=T) 
+#rawData = read.csv('Data/Data_CC_tense_01Oct2015.csv', as.is=T) 
+rawData = read.csv('~/documents/climate_tense/Corrected data - Climate change is in tense - Data.csv', as.is=T) 
 
 #----------#
 # CLEANING #
@@ -139,6 +140,104 @@ hist_cut + geom_bar(position="fill")
 # Test results including and excluding "confidence_in_tense" == "no" --> if no difference, include all
 # if difference: check "no"'s with everyone to assign to "yes" or ditch paper and pick a new one
 table(df$confidence_in_tense, df$tense)
+
+
+
+
+
+
+### MANUALLY CONSTRUCT LIKERT BAR CHART
+
+setwd("~/documents/climate_tense/Climate-tense-project")
+
+d <- df
+
+# combine unclear and inconsistent tenses
+d$tns <- d$tense
+d$tns[grepl("inconsistent|unclear", d$tns)] <- "ambiguous"
+d$tns <- factor(d$tns, levels=rev(c("past", "implicit past", "ambiguous", "implicit present", "present")))
+
+# clean invalid labels
+d$paper_focus[d$paper_focus=="***not temporal"] <- NA
+d$citation[!d$citation %in% c("TRUE", "FALSE")] <- NA
+d$geographic_extent_of_study[d$geographic_extent_of_study==""] <- NA
+
+# gather factors
+library(tidyr)
+library(dplyr)
+d <- gather(d, factor, level, paper_focus, geographic_extent_of_study, citation, climate_date_range) %>%
+      filter(!is.na(level)) %>%
+      mutate(factor=factor(factor, 
+                           levels=c("paper_focus", "geographic_extent_of_study", "climate_date_range", "citation"),
+                           labels=c("Study\nfocus", "Study\nextent", "Time\nperiod?", "Citation?")))
+
+p <- ggplot(d, aes(level, fill=tns)) + 
+      geom_bar(position="fill") +
+      scale_fill_manual(values=rev(c("darkred", "red", "gray80", "dodgerblue", "darkblue"))) +
+      coord_flip() +
+      facet_grid(factor~., scales="free", space="free") +
+      theme(panel.background=element_blank()) +
+      theme(axis.ticks.y=element_blank()) +
+      labs(fill="tense", y="proportion of papers", x=NULL)
+#ggsave("stacked_bar.png", width=7, height=5, units="in")
+
+
+
+
+
+prop2likert <- function(x){
+      y <- x
+      for(i in 2:length(y)) y[i] <- y[i] + y[i-1] # top of each bar
+      y0 <- c(0, y[1:4])
+      ym <- (y + y0) / 2
+      ym <- ym - ym[3]
+      return(ym)
+}
+
+f <- d %>%
+      
+      # calculate proportions in each class
+      group_by(factor, level, tns) %>%
+      summarize(n=n()) %>%
+      group_by(factor, level) %>%
+      mutate(n=n/sum(n)) %>%
+      
+      # add 0's for non-observed tenses
+      mutate(tns=as.character(tns), tns=sub(" ", "_", tns)) %>%
+      spread(tns, n) %>%
+      gather(tns, n, ambiguous:present) %>%
+      mutate(n=ifelse(is.na(n), 0, n),
+             tns=factor(tns, levels=c("past", "implicit_past", "ambiguous", 
+                                      "implicit_present", "present"),
+                        labels=c("past", "implicit past", "ambiguous", 
+                                 "implicit present", "present"))) %>%
+      
+      # compute likert centers
+      arrange(factor, level, tns) %>%
+      group_by(factor, level) %>%
+      mutate(x = prop2likert(n)) %>%
+      
+      # put levels in a sensical order
+      ungroup() %>%
+      mutate(level=factor(level, 
+                          levels=c("not temporal", "weather effects", "climate change effects", 
+                                   "site", "regional", "continental", "global",
+                                   "FALSE", "TRUE")))
+
+p <- ggplot(f, aes(x=x*100, y=level, width=n*100, height=.9, fill=tns)) + 
+      geom_tile() +
+      facet_grid(factor~., scales="free", space="free") +
+      scale_fill_manual(values=c("darkred", "red", "gray80", "dodgerblue", "darkblue")) +
+      theme(panel.background=element_rect(fill="gray95"), panel.grid=element_blank(),
+            axis.title.y=element_blank(), axis.ticks.y=element_blank(),
+            legend.position="top") +
+      scale_x_continuous(breaks=seq(-100, 100, 25), 
+                         labels=abs(seq(-100, 100, 25)), 
+                         limits=c(-100,100)) +
+      labs(fill="CLIMATE TENSE", x="percentage of papers")
+
+ggsave("likert_bars.png", width=7, height=5, units="in")
+
 
 
 
