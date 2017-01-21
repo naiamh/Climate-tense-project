@@ -1,7 +1,7 @@
 ---
 title: "Climate tense analysis"
 author: "Naia Morueta-Holme"
-date: "November 28 2016"
+date: "January 20 2017"
 output: html_document
 ---
 ```{r setup, include=F}
@@ -20,7 +20,7 @@ require(gmodels)
 Read in the raw data 
 ```{r}
 # NOTE: DOWNLOAD COPY FROM GOOGLE DRIVE AND CHANGE FILE NAME HERE ACCORDINGLY
-rawData = read.csv('Data/Data_CC_tense_01Oct2015_v2.csv', as.is=T) 
+rawData = read.csv('Data/Data_CC_tense_20Jan2017.csv', as.is=T) 
 ```
 
 Clean the data
@@ -35,19 +35,23 @@ df = filledData[which(filledData$OK_for_analysis == 'yes'),
                     c('ID_old','Publication_year','Journal','paper_focus',
                       'tense','confidence_in_tense','climate_date_range',
                       'climate_date_min','climate_date_max',
-                      'climate_data_source','citation',
+                      'upd_climate_data_source','citation',
                       'geographic_extent_of_study','Data_collector_name')]
 
 # Filter papers where climate_data_range is filled correctly
 table(df$climate_date_range)
 df = subset(df, climate_date_range == T | df$climate_date_range == F)
 
-# Filter papers with full geographic extent information (1 missing)
-df = subset(df, geographic_extent_of_study != '')
+# Check all papers have full geographic extent information
+table(df$geographic_extent_of_study)
+#lump continental and global
+df$upd_geographic_extent = df$geographic_extent_of_study
+df$upd_geographic_extent[which(df$geographic_extent_of_study=='continental' | df$geographic_extent_of_study=='global')] = 'continental/global'
+table(df$upd_geographic_extent)
 
-# Filter papers where focus of study is filled correctly
+
+# Check focus of study is filled correctly
 table(df$paper_focus)
-df = subset(df, paper_focus != "***not temporal")
 
 ```
 
@@ -304,10 +308,10 @@ res <-apply(t1$prop.row,2,function(x) {round(x*100,1)})
 order_rows <- c('climate change effects','weather effects','not temporal')
 ResFocus <- res[order_rows,order_cols]
 
-t1 <- CrossTable(df$geographic_extent_of_study, df$tense_lumpbad)
+t1 <- CrossTable(df$upd_geographic_extent, df$tense_lumpbad)
 res <- apply(t1$prop.row,2,function(x) {round(x*100,1)})
 
-order_rows <- c('global','continental','regional','site')
+order_rows <- c('continental/global','regional','site')
 ResExtent <- res[order_rows,order_cols]
 
 t1 <- CrossTable(df$climate_date_range, df$tense_lumpbad)
@@ -335,7 +339,7 @@ Some more cross tabulations
 t1 <- CrossTable(df$climate_date_range, df$citation)
 res1 <-apply(t1$prop.row,2,function(x) {round(x*100,1)})
 
-t1 <- CrossTable(df$climate_data_source, df$geographic_extent_of_study)
+t1 <- CrossTable(df$climate_data_source, df$upd_geographic_extent)
 res2 <-apply(t1$prop.row,2,function(x) {round(x*100,1)})
 
 
