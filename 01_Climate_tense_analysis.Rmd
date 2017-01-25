@@ -39,12 +39,16 @@ df$upd_geographic_extent[which(df$geographic_extent_of_study=='continental' | df
 
 #Add tense_lumpbad column
 df$tense_lumpbad <- df$tense
-df$tense_lumpbad[which(df$tense=='unclear' | df$tense=='inconsistent')] = 'unclear_inconsistent'
+df$tense_lumpbad[which(df$tense=='unclear' | df$tense=='inconsistent')] = 'ambiguous'
 
 #Add tense_lump3 column for implicit/explicit
 df$tense_lump3 <- df$tense_lumpbad
 df$tense_lump3[which(df$tense=='past' | df$tense=='implicit past')] = 'any_past'
 df$tense_lump3[which(df$tense=='present' | df$tense=='implicit present')] = 'any_present'
+
+#Rename tense 'not temporal' to 'atemporal'
+df$paper_focus[which(df$paper_focus=='not temporal')] = 'atemporal'
+
 ```
 
 Table with impact factor for each journal (from www.citefactor.org)
@@ -132,7 +136,7 @@ legend(x="topright", legend=c("All", "In analysis"), fill=c("white", "grey"))
 
 
 ### 3. Preliminary plots
-```{r include=F}
+```{r, include=F}
 TenseSum <-
   df %>%
   group_by(tense) %>%
@@ -160,7 +164,7 @@ DateRangeSum <-
 DateRangeSum
 ```
 
-```{r include=F}
+```{r, include=F}
 CitationSum <-
   df %>%
   group_by(citation) %>%
@@ -170,108 +174,9 @@ CitationSum <-
 CitationSum
 ```
 
-```{r include=F}
-#Adapt files for likert plots
-d1 <-
-  df %>%
-  #filter(!is.na(Journal), !is.na(geographic_extent_of_study)) %>%
-  select(tense)
-#order the data
-d1$tense <- factor(d1$tense,
-                   c("past",
-                     "implicit past",
-                     "present",
-                     "implicit present",
-                     "inconsistent",
-                     "unclear"))
-
-
-
-#Lump inconsistent and unclear tenses
-d2 <-
-  df %>%
-  #filter(!is.na(Journal), !is.na(geographic_extent_of_study)) %>%
-  select(tense_lumpbad)
-#order the data
-d2$tense_lumpbad <- factor(d2$tense_lumpbad,
-                           c("past",
-                             "implicit past",
-                             "unclear_inconsistent",
-                             "implicit present",
-                             "present"))
-
-# subset grouping variables
-d1_groups <-
-  df %>%
-  #filter(!is.na(Journal), !is.na(geographic_extent_of_study)) %>%
-  select(Journal, geographic_extent_of_study, paper_focus)
-
-d1_groups$geographic_extent_of_study <- factor(d1_groups$geographic_extent_of_study,
-                     c("site",
-                       "regional",
-                       "continental",
-                       "global"))
-d1_groups$Journal <- factor(d1_groups$Journal,
-                            c("GCB",
-                              "American_Naturalist",
-                              "Ecology",
-                              "Diversity_and_Distributions",
-                              "Journal_of_Ecology",
-                              "PNAS",
-                              "Ecology_Letters",
-                              "Nature"))
-
-d1_groups$paper_focus <- factor(d1_groups$paper_focus,
-                                c("not temporal",
-                                  "weather effects",
-                                  "climate change effects"))
-
-
-d1_groups$decade <- sapply(df$Publication_year, function(x) {floor(x/10)*10})
-d1_groups$decade <- factor(d1_groups$decade,
-                           c("1980",
-                             "1990",
-                             "2000",
-                             "2010"))
-
-```
-
-
-```{r echo=F}
-likert_11 <- likert(d1, grouping = d1_groups$Journal)
-title <- "How is climate referred to across journals?"
-plot(likert_11, center=2.5) + ggtitle(title)
-
-likert_12 <- likert(d1, grouping = d1_groups$geographic_extent_of_study)
-title <- "Does tense depend on extent of study?"
-plot(likert_12, center=2.5) + ggtitle(title)
-
-likert_13 <- likert(d1, grouping = d1_groups$paper_focus)
-title <- "Does tense depend on focus of study?"
-plot(likert_13, center=2.5) + ggtitle(title)
-
-likert_14 <- likert(d1, grouping = d1_groups$decade)
-title <- "Does use of tense change over time?"
-plot(likert_14, center=2.5) + ggtitle(title)
-```
-
-### 4. Plots lumping 'unclear' and 'inconsistent'
-#### These plots look weird!
-(grey are plotted twice, not centered correctly)
-```{r echo=F}
-likert_22 <- likert(d2, grouping = d1_groups$geographic_extent_of_study)
-title <- "Does tense depend on extent of study?"
-plot(likert_22) + ggtitle(title)
-
-likert_23 <- likert(d2, grouping = d1_groups$paper_focus)
-title <- "Does tense depend on focus of study?"
-plot(likert_23) + ggtitle(title)
-
-
-```
 
 ### 5. Crosstabulations that we want to show in a multi-panel figure
-```{r include=F, echo=F}
+```{r, echo=F}
 #Tables cross-classifying tense and groupings (since plots look fishy...)
 ## How to order the columns
 order_cols <- c('past','implicit past', 'present', 'implicit present', 'unclear_inconsistent')
@@ -302,14 +207,14 @@ ResCitation <- res[order_rows,order_cols]
 ```
 
 
-```{r}
+```{r, include=F}
 ResExtent
 ResFocus
 ResDateRange
 ResCitation
 ```
 Some more cross tabulations
-```{r}
+```{r, include=F}
 t1 <- CrossTable(df$climate_date_range, df$citation)
 res1 <-apply(t1$prop.row,2,function(x) {round(x*100,1)})
 
@@ -320,45 +225,42 @@ res2 <-apply(t1$prop.row,2,function(x) {round(x*100,1)})
 ```
 
 
-Matt's code
-```{r}
+### 6. Final plot
+Adapted from Matt's code
+```{r echo=F}
 ### MANUALLY CONSTRUCT LIKERT BAR CHART
-
-setwd("~/documents/climate_tense/Climate-tense-project")
-
 d <- df
 
 # combine unclear and inconsistent tenses
-d$tns <- d$tense
-d$tns[grepl("inconsistent|unclear", d$tns)] <- "ambiguous"
+# d$tns <- d$tense
+# d$tns[grepl("inconsistent|unclear", d$tns)] <- "ambiguous"
+# d$tns <- factor(d$tns, levels=rev(c("past", "implicit past", "ambiguous", "implicit present", "present")))
+d$tns <- d$tense_lumpbad
 d$tns <- factor(d$tns, levels=rev(c("past", "implicit past", "ambiguous", "implicit present", "present")))
 
-# clean invalid labels
-d$paper_focus[d$paper_focus=="***not temporal"] <- NA
-d$citation[!d$citation %in% c("TRUE", "FALSE")] <- NA
-d$geographic_extent_of_study[d$geographic_extent_of_study==""] <- NA
+# # clean invalid labels
+# d$paper_focus[d$paper_focus=="***not temporal"] <- NA
+# d$citation[!d$citation %in% c("TRUE", "FALSE")] <- NA
+# d$geographic_extent_of_study[d$geographic_extent_of_study==""] <- NA
 
 # gather factors
 library(tidyr)
 library(dplyr)
-d <- gather(d, factor, level, paper_focus, geographic_extent_of_study, citation, climate_date_range) %>%
+d <- gather(d, factor, level, paper_focus, upd_geographic_extent, citation, climate_date_range) %>%
       filter(!is.na(level)) %>%
       mutate(factor=factor(factor, 
-                           levels=c("paper_focus", "geographic_extent_of_study", "climate_date_range", "citation"),
+                           levels=c("paper_focus", "upd_geographic_extent", "climate_date_range", "citation"),
                            labels=c("Study\nfocus", "Study\nextent", "Time\nperiod?", "Citation?")))
 
-p <- ggplot(d, aes(level, fill=tns)) + 
-      geom_bar(position="fill") +
-      scale_fill_manual(values=rev(c("darkred", "red", "gray80", "dodgerblue", "darkblue"))) +
-      coord_flip() +
-      facet_grid(factor~., scales="free", space="free") +
-      theme(panel.background=element_blank()) +
-      theme(axis.ticks.y=element_blank()) +
-      labs(fill="tense", y="proportion of papers", x=NULL)
-#ggsave("stacked_bar.png", width=7, height=5, units="in")
-
-
-
+# p <- ggplot(d, aes(level, fill=tns)) + 
+#       geom_bar(position="fill") +
+#       scale_fill_manual(values=rev(c("darkred", "red", "gray80", "dodgerblue", "darkblue"))) +
+#       coord_flip() +
+#       facet_grid(factor~., scales="free", space="free") +
+#       theme(panel.background=element_blank()) +
+#       theme(axis.ticks.y=element_blank()) +
+#       labs(fill="tense", y="proportion of papers", x=NULL)
+# #ggsave("stacked_bar.png", width=7, height=5, units="in")
 
 
 prop2likert <- function(x){
@@ -396,8 +298,8 @@ f <- d %>%
       # put levels in a sensical order
       ungroup() %>%
       mutate(level=factor(level, 
-                          levels=c("not temporal", "weather effects", "climate change effects", 
-                                   "site", "regional", "continental", "global",
+                          levels=c("atemporal", "weather effects", "climate change effects", 
+                                   "site", "regional", "continental/global",
                                    "FALSE", "TRUE")))
 
 p <- ggplot(f, aes(x=x*100, y=level, width=n*100, height=.9, fill=tns)) + 
@@ -412,6 +314,7 @@ p <- ggplot(f, aes(x=x*100, y=level, width=n*100, height=.9, fill=tns)) +
                          limits=c(-100,100)) +
       labs(fill="CLIMATE TENSE", x="percentage of papers")
 
+p
 #ggsave("likert_bars.png", width=7, height=5, units="in")
 
 
