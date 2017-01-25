@@ -8,8 +8,8 @@ output: html_document
 knitr::opts_chunk$set(comment = "#>")
 ```
 ### 1. Prepare data
-Clean workspace and load libraries
-```{r include=FALSE}
+####Clean workspace and load libraries
+```{r message=FALSE}
 #rm(list=ls())
 require(likert)
 require(ggplot2)
@@ -17,18 +17,13 @@ require(dplyr)
 require(gmodels)
 ```
 
-Read in the raw data 
-```{r}
+####Read in the raw data and subset
+```{r, message=FALSE}
 # NOTE: DOWNLOAD COPY FROM GOOGLE DRIVE AND CHANGE FILE NAME HERE ACCORDINGLY
-rawData = read.csv('Data/Data_CC_tense_20Jan2017.csv', as.is=T) 
-```
+rawData = read.csv('Data/Data_CC_tense_25Jan2017.csv', as.is=T) 
 
-Clean the data
-```{r message=F}
-#Note: several of these clean-ups should be irrelevant once we have the full dataset
 # Filter papers that have actually been checked
 filledData = rawData[which(rawData$OK_for_analysis != ''),]
-table(filledData$OK_for_analysis)
 
 # Select papers that are OK for analysis, and the relevant columns
 df = filledData[which(filledData$OK_for_analysis == 'yes'),
@@ -38,21 +33,18 @@ df = filledData[which(filledData$OK_for_analysis == 'yes'),
                       'upd_climate_data_source','citation',
                       'geographic_extent_of_study','Data_collector_name')]
 
-# Filter papers where climate_data_range is filled correctly
-table(df$climate_date_range)
-df = subset(df, climate_date_range == T | df$climate_date_range == F)
-
-# Check all papers have full geographic extent information
-table(df$geographic_extent_of_study)
 #lump continental and global
 df$upd_geographic_extent = df$geographic_extent_of_study
 df$upd_geographic_extent[which(df$geographic_extent_of_study=='continental' | df$geographic_extent_of_study=='global')] = 'continental/global'
-table(df$upd_geographic_extent)
 
+#Add tense_lumpbad column
+df$tense_lumpbad <- df$tense
+df$tense_lumpbad[which(df$tense=='unclear' | df$tense=='inconsistent')] = 'unclear_inconsistent'
 
-# Check focus of study is filled correctly
-table(df$paper_focus)
-
+#Add tense_lump3 column for implicit/explicit
+df$tense_lump3 <- df$tense_lumpbad
+df$tense_lump3[which(df$tense=='past' | df$tense=='implicit past')] = 'any_past'
+df$tense_lump3[which(df$tense=='present' | df$tense=='implicit present')] = 'any_present'
 ```
 
 Table with impact factor for each journal (from www.citefactor.org)
@@ -60,41 +52,27 @@ Table with impact factor for each journal (from www.citefactor.org)
 IF_lookup = data.frame(Journal = sort(unique(df$Journal)),IF2014=c(4.454, 5.469, 5.000, 13.042, 4.248, 5.694, 42.351, 9.809))
 ```
 
-Add tense_lumpbad column
+###2. Check the data
+
 ```{r}
-df$tense_lumpbad <- df$tense
-df$tense_lumpbad[which(df$tense=='unclear' | df$tense=='inconsistent')] = 'unclear_inconsistent'
+#How many papers included in analysis?
+table(filledData$OK_for_analysis)
 
-```
+#Is climate_data_range filled correctly? (only TRUE or FALSE valid)
+table(df$climate_date_range)
 
-<!-- #-----------------# -->
-<!-- # THE FUN BEGINS! # -->
-<!-- #-----------------# -->
-### 2. A few checks of missing values...
-Need to check a few tense assignments...
-```{r echo=F}
+#Do all papers have geographic extent information?
+table(df$upd_geographic_extent)
+
+#Do all papers have focus of study information?
+table(df$paper_focus)
+
+#Are all tense assignments confident?
 table(df$confidence_in_tense)
-
-TenseSum <-
-  df %>%
-  group_by(confidence_in_tense) %>%
-  summarise(n=n()) %>%
-  mutate(rel.freq = round(100*n/sum(n), 0))
-
-#TenseSum
-
-TenseBasicPlot <- ggplot(TenseSum,aes(x=confidence_in_tense,y=rel.freq)) +
-  geom_bar(stat="identity") +
-  coord_flip() +
-  ggtitle("Confidence in tense assignment?") +
-  ylab("% papers") +
-  theme(axis.ticks.y = element_blank()) +
-  theme(axis.title.y = element_blank())
-  
-TenseBasicPlot
 ```
 
-Sampling per collector is not even
+
+Sampling per collector is not even, but OK
 ```{r echo=F}
 #table(df$Data_collector_name)
 
@@ -113,14 +91,12 @@ TenseBasicPlot <- ggplot(TenseSum,aes(x=Data_collector_name,y=rel.freq)) +
   ylab("% papers") +
   theme(axis.ticks.y = element_blank()) +
   theme(axis.title.y = element_blank())
-  
+
 TenseBasicPlot
 ```
 
-And journal representation is also uneven
+And journal representation is also uneven, so not analyzing differences
 ```{r echo=F}
-#table(df$Journal)
-
 TenseSum <-
   df %>%
   group_by(Journal) %>%
@@ -136,21 +112,19 @@ TenseBasicPlot <- ggplot(TenseSum,aes(x=Journal,y=rel.freq)) +
   ylab("% papers") +
   theme(axis.ticks.y = element_blank()) +
   theme(axis.title.y = element_blank())
-  
+
 TenseBasicPlot
 ```
 
-How about representation across time?
-```{r echo=F}
+```{r, include=F, echo=F}
 ## Differences across time?
 #Distribution of papers over time -> use to decide whether to work with proportions or raw counts
 hist(rawData$Publication_year, breaks=seq(1979,2020,10), main="Papers per time period", ylim=c(0,250)) #all papers
 hist(df$Publication_year, breaks=seq(1979,2020,10), add=T, col="grey")
 legend(x="topright", legend=c("All", "In analysis"), fill=c("white", "grey"))
-```
 
-But looks like there are more papers to be found!
-```{r echo=F}
+
+###But looks like there are more papers to be found!
 hist(rawData$Publication_year, breaks=seq(1979,2020,5), main="Papers per time period", ylim=c(0,250)) #all papers
 hist(df$Publication_year, breaks=seq(1979,2020,5), add=T, col="grey")
 legend(x="topright", legend=c("All", "In analysis"), fill=c("white", "grey"))
@@ -174,7 +148,7 @@ TenseBasicPlot <- ggplot(TenseSum,aes(x=tense,y=rel.freq)) +
   ylab("% papers") +
   theme(axis.ticks.y = element_blank()) +
   theme(axis.title.y = element_blank())
-  
+
 TenseBasicPlot
 ```
 ```{r include=F}
@@ -214,7 +188,7 @@ d1$tense <- factor(d1$tense,
 
 
 #Lump inconsistent and unclear tenses
-d2 <- 
+d2 <-
   df %>%
   #filter(!is.na(Journal), !is.na(geographic_extent_of_study)) %>%
   select(tense_lumpbad)
@@ -227,12 +201,12 @@ d2$tense_lumpbad <- factor(d2$tense_lumpbad,
                              "present"))
 
 # subset grouping variables
-d1_groups <- 
+d1_groups <-
   df %>%
   #filter(!is.na(Journal), !is.na(geographic_extent_of_study)) %>%
   select(Journal, geographic_extent_of_study, paper_focus)
 
-d1_groups$geographic_extent_of_study <- factor(d1_groups$geographic_extent_of_study, 
+d1_groups$geographic_extent_of_study <- factor(d1_groups$geographic_extent_of_study,
                      c("site",
                        "regional",
                        "continental",
@@ -282,7 +256,7 @@ plot(likert_14, center=2.5) + ggtitle(title)
 ```
 
 ### 4. Plots lumping 'unclear' and 'inconsistent'
-#### These plots look weird! 
+#### These plots look weird!
 (grey are plotted twice, not centered correctly)
 ```{r echo=F}
 likert_22 <- likert(d2, grouping = d1_groups$geographic_extent_of_study)
@@ -344,3 +318,102 @@ res2 <-apply(t1$prop.row,2,function(x) {round(x*100,1)})
 
 
 ```
+
+
+Matt's code
+```{r}
+### MANUALLY CONSTRUCT LIKERT BAR CHART
+
+setwd("~/documents/climate_tense/Climate-tense-project")
+
+d <- df
+
+# combine unclear and inconsistent tenses
+d$tns <- d$tense
+d$tns[grepl("inconsistent|unclear", d$tns)] <- "ambiguous"
+d$tns <- factor(d$tns, levels=rev(c("past", "implicit past", "ambiguous", "implicit present", "present")))
+
+# clean invalid labels
+d$paper_focus[d$paper_focus=="***not temporal"] <- NA
+d$citation[!d$citation %in% c("TRUE", "FALSE")] <- NA
+d$geographic_extent_of_study[d$geographic_extent_of_study==""] <- NA
+
+# gather factors
+library(tidyr)
+library(dplyr)
+d <- gather(d, factor, level, paper_focus, geographic_extent_of_study, citation, climate_date_range) %>%
+      filter(!is.na(level)) %>%
+      mutate(factor=factor(factor, 
+                           levels=c("paper_focus", "geographic_extent_of_study", "climate_date_range", "citation"),
+                           labels=c("Study\nfocus", "Study\nextent", "Time\nperiod?", "Citation?")))
+
+p <- ggplot(d, aes(level, fill=tns)) + 
+      geom_bar(position="fill") +
+      scale_fill_manual(values=rev(c("darkred", "red", "gray80", "dodgerblue", "darkblue"))) +
+      coord_flip() +
+      facet_grid(factor~., scales="free", space="free") +
+      theme(panel.background=element_blank()) +
+      theme(axis.ticks.y=element_blank()) +
+      labs(fill="tense", y="proportion of papers", x=NULL)
+#ggsave("stacked_bar.png", width=7, height=5, units="in")
+
+
+
+
+
+prop2likert <- function(x){
+      y <- x
+      for(i in 2:length(y)) y[i] <- y[i] + y[i-1] # top of each bar
+      y0 <- c(0, y[1:4])
+      ym <- (y + y0) / 2
+      ym <- ym - ym[3]
+      return(ym)
+}
+
+f <- d %>%
+      
+      # calculate proportions in each class
+      group_by(factor, level, tns) %>%
+      summarize(n=n()) %>%
+      group_by(factor, level) %>%
+      mutate(n=n/sum(n)) %>%
+      
+      # add 0's for non-observed tenses
+      mutate(tns=as.character(tns), tns=sub(" ", "_", tns)) %>%
+      spread(tns, n) %>%
+      gather(tns, n, ambiguous:present) %>%
+      mutate(n=ifelse(is.na(n), 0, n),
+             tns=factor(tns, levels=c("past", "implicit_past", "ambiguous", 
+                                      "implicit_present", "present"),
+                        labels=c("past", "implicit past", "ambiguous", 
+                                 "implicit present", "present"))) %>%
+      
+      # compute likert centers
+      arrange(factor, level, tns) %>%
+      group_by(factor, level) %>%
+      mutate(x = prop2likert(n)) %>%
+      
+      # put levels in a sensical order
+      ungroup() %>%
+      mutate(level=factor(level, 
+                          levels=c("not temporal", "weather effects", "climate change effects", 
+                                   "site", "regional", "continental", "global",
+                                   "FALSE", "TRUE")))
+
+p <- ggplot(f, aes(x=x*100, y=level, width=n*100, height=.9, fill=tns)) + 
+      geom_tile() +
+      facet_grid(factor~., scales="free", space="free") +
+      scale_fill_manual(values=c("darkred", "red", "gray80", "dodgerblue", "darkblue")) +
+      theme(panel.background=element_rect(fill="gray95"), panel.grid=element_blank(),
+            axis.title.y=element_blank(), axis.ticks.y=element_blank(),
+            legend.position="top") +
+      scale_x_continuous(breaks=seq(-100, 100, 25), 
+                         labels=abs(seq(-100, 100, 25)), 
+                         limits=c(-100,100)) +
+      labs(fill="CLIMATE TENSE", x="percentage of papers")
+
+#ggsave("likert_bars.png", width=7, height=5, units="in")
+
+
+```
+
