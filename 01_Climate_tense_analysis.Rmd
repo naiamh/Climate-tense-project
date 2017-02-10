@@ -258,7 +258,7 @@ d <- gather(d, factor, level, paper_focus, upd_geographic_extent, citation, clim
       filter(!is.na(level)) %>%
       mutate(factor=factor(factor, 
                            levels=c("paper_focus", "upd_geographic_extent", "climate_date_range", "citation"),
-                           labels=c("Study\nfocus", "Study\nextent", "Time\nperiod?", "Citation?")))
+                           labels=c("Study focus", "Study extent", "Time period?", "Citation?")))
 
 
 prop2likert <- function(x){
@@ -302,7 +302,7 @@ f <- d %>%
 
 p <- ggplot(f, aes(x=x*100, y=level, width=n*100, height=.9, fill=tns)) + 
       geom_tile() +
-      facet_grid(factor~., scales="free", space="free") +
+      facet_wrap(~factor, ncol=1, scales="free_y") +
       scale_fill_manual(values=rev(c("darkred", "red", "gray80", "dodgerblue", "darkblue"))) +
       theme(panel.background=element_rect(fill="gray95"), panel.grid=element_blank(),
             axis.title.y=element_blank(), axis.ticks.y=element_blank(),
