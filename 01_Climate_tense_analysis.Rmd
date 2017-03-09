@@ -21,7 +21,7 @@ require(gmodels)
 ####Read in the raw data and subset
 ```{r, message=FALSE}
 # NOTE: DOWNLOAD COPY FROM GOOGLE DRIVE AND CHANGE FILE NAME HERE ACCORDINGLY
-rawData = read.csv('Data/Data_CC_tense_25Jan2017.csv', as.is=T) 
+rawData = read.csv('Data/Data_CC_tense_21Feb2017.csv', as.is=T) 
 
 # Filter papers that have actually been checked
 filledData = rawData[which(rawData$OK_for_analysis != ''),]
@@ -49,6 +49,14 @@ df$tense_lump3[which(df$tense=='present' | df$tense=='implicit present')] = 'any
 
 #Rename tense 'not temporal' to 'general ecology'
 df$paper_focus[which(df$paper_focus=='not temporal')] = 'general ecology'
+
+#Rename citation to 'yes/no'
+df$citation[which(df$citation==TRUE)] = 'yes'
+df$citation[which(df$citation==FALSE)] = 'no'
+
+#Rename date range to 'yes/no'
+df$climate_date_range[which(df$climate_date_range==TRUE)] = 'yes'
+df$climate_date_range[which(df$climate_date_range==FALSE)] = 'no'
 
 ```
 
@@ -164,8 +172,24 @@ DateRangeSum <-
   mutate(rel.freq = round(100*n/sum(n), 0))
 DateRangeSum
 ```
+```{r include=T}
+ExtentSum <-
+  df %>%
+  group_by(upd_geographic_extent) %>%
+  summarise(n=n()) %>%
+  mutate(rel.freq = round(100*n/sum(n), 0))
+ExtentSum
+```
+```{r include=T}
+FocusSum <-
+  df %>%
+  group_by(paper_focus) %>%
+  summarise(n=n()) %>%
+  mutate(rel.freq = round(100*n/sum(n), 0))
+FocusSum
+```
 
-```{r, include=F}
+```{r, include=T}
 CitationSum <-
   df %>%
   group_by(citation) %>%
@@ -197,13 +221,13 @@ ResExtent <- res[order_rows,order_cols]
 t1 <- CrossTable(df$climate_date_range, df$tense_lumpbad)
 res <-apply(t1$prop.row,2,function(x) {round(x*100,1)})
 
-order_rows <- c('TRUE','FALSE')
+order_rows <- c('yes','no')
 ResDateRange <- res[order_rows,order_cols]
 
 t1 <- CrossTable(df$citation, df$tense_lumpbad)
 res <-apply(t1$prop.row,2,function(x) {round(x*100,1)})
 
-order_rows <- c('TRUE','FALSE')
+order_rows <- c('yes','no')
 ResCitation <- res[order_rows,order_cols]
 ```
 
@@ -235,6 +259,7 @@ ResCitation
 
 ### 5. Final plot
 Adapted from Matt's code
+
 ```{r echo=F}
 ### MANUALLY CONSTRUCT LIKERT BAR CHART
 d <- df
@@ -257,8 +282,10 @@ library(dplyr)
 d <- gather(d, factor, level, paper_focus, upd_geographic_extent, citation, climate_date_range) %>%
       filter(!is.na(level)) %>%
       mutate(factor=factor(factor, 
-                           levels=c("paper_focus", "upd_geographic_extent", "climate_date_range", "citation"),
-                           labels=c("Study focus", "Study extent", "Time period?", "Citation?")))
+                           levels=c("climate_date_range", "paper_focus", "upd_geographic_extent", "citation"),
+                           labels=c("Time period", "Study focus", "Study extent", "Citation")))
+
+
 
 
 prop2likert <- function(x){
@@ -296,9 +323,13 @@ f <- d %>%
       # put levels in a sensical order
       ungroup() %>%
       mutate(level=factor(level, 
-                          levels=c("general ecology", "weather effects", "climate change effects", 
-                                   "site", "regional", "continental/global",
-                                   "FALSE", "TRUE")))
+                          levels=c("no", "yes",
+                                  "general ecology", "weather effects", "climate change effects", 
+                                   "site", "regional", "continental/global"),
+                          labels=c("no (n= xx)", "yes (n= xx)",
+                                  "general ecology (n=113)", "weather effects (n=47)", "climate change effects (n=46)", 
+                                   "site (n=123)", "regional (n=65)", "continental/global (n=18)")))
+
 
 p <- ggplot(f, aes(x=x*100, y=level, width=n*100, height=.9, fill=tns)) + 
       geom_tile() +
@@ -307,14 +338,14 @@ p <- ggplot(f, aes(x=x*100, y=level, width=n*100, height=.9, fill=tns)) +
       theme(panel.background=element_rect(fill="gray95"), panel.grid=element_blank(),
             axis.title.y=element_blank(), axis.ticks.y=element_blank(),
             legend.position="top") +
-      scale_x_continuous(breaks=seq(-100, 100, 25), 
-                         labels=abs(seq(-100, 100, 25)), 
-                         limits=c(-100,100)) +
+      scale_x_continuous(breaks=seq(-100, 100, 20), 
+                         labels=abs(seq(-100, 100, 20)), 
+                         limits=c(-85,85)) +
       labs(fill="Climate tense", x="percentage of papers")
 
 p
-#ggsave("likert_bars_v2.png", width=7, height=5, units="in")
-
+#ggsave("likert_bars_v4.png", width=7, height=5, units="in")
+#ggsave("likert_bars_v4.pdf", width=7, height=5, units="in")
 
 ```
 
